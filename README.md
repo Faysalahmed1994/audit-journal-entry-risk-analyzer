@@ -2,6 +2,8 @@
 
 **Status: functional local prototype v0.1 — not validated for audit production.**
 
+> **PUBLIC PREVIEW — Feedback welcome.** AuditJE v0.1 is open for review while development continues. [Comment on the public review invitation (Issue #1)](https://github.com/Faysalahmed1994/audit-journal-entry-risk-analyzer/issues/1), [open a new feedback issue](https://github.com/Faysalahmed1994/audit-journal-entry-risk-analyzer/issues/new/choose), or read the [reviewer guide](docs/PUBLIC_REVIEW.md). Please test with **synthetic data only**. GitHub hosts the source code; there is **no hosted interactive application** yet. The prototype is rules-based, not AI-powered or production-validated.
+
 AuditJE is a laptop-hosted, explainable, rules-based tool for financial audit teams to review journal-entry populations, triage unusual postings, select a reproducible risk-based sample, and create an Excel audit workpaper with manually attached voucher screenshots.
 
 > **Confidentiality:** files are processed at `127.0.0.1` on your own laptop. There is no cloud upload, subscription or paid API. Do **not** commit client data or workpapers. Follow employer policies and audit standards before use.
