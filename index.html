@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AuditJE | Offline Journal Entry Analyzer</title>
+<style>
+:root{font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;color:#162b40;background:#f4f7fb;line-height:1.5}
+*{box-sizing:border-box}body{margin:0}header{background:#142d48;color:white;padding:21px max(25px,calc((100vw - 1200px)/2));display:flex;justify-content:space-between;gap:15px;align-items:center}header h1{font-size:26px;letter-spacing:-.6px;margin:0}header p{margin:3px 0 0;color:#c5d6e7;font-size:13px}.pill{border:1px solid #91b3cf;border-radius:24px;padding:6px 12px;font-size:12px;white-space:nowrap}
+main{max-width:1220px;margin:auto;padding:25px 18px 50px}.banner{background:#edf6fb;border:1px solid #d0e7f5;padding:13px 17px;border-radius:10px;font-size:13px;margin-bottom:20px}.layout{display:grid;grid-template-columns:minmax(280px,390px) minmax(0,1fr);gap:20px}.panel{background:white;border:1px solid #dce4ee;border-radius:12px;box-shadow:0 4px 15px #203a5910;padding:21px}.panel h2{font-size:18px;margin:0 0 14px}.panel h3{font-size:14px;margin:20px 0 9px}label{font-size:12px;font-weight:700;display:block;margin:12px 0 5px;color:#39516b}input,select{border:1px solid #c5d0dc;background:white;border-radius:8px;padding:10px;width:100%;font:inherit;font-size:13px;color:#21374d}input:focus,select:focus{outline:2px solid #a2cdec;border-color:#3689bb}.fields{display:grid;grid-template-columns:1fr 1fr;gap:0 11px}.hint{font-size:12px;color:#677d93;margin:8px 0}.btn{background:#145a91;color:white;border:0;padding:12px 16px;border-radius:8px;font-weight:700;cursor:pointer;display:inline-flex;gap:8px;align-items:center;justify-content:center}.btn:hover{background:#104977}.btn:disabled{opacity:.5;cursor:not-allowed}.btn.secondary{background:#edf4fa;color:#164c74;border:1px solid #c9dbe9}.btn.secondary:hover{background:#deecf5}.btn-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px}.btn-row .btn{flex:1}.statgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.stat{border:1px solid #e0e8f1;background:#f9fbfd;padding:15px;border-radius:9px}.stat strong{display:block;font-size:24px;line-height:1.3}.stat small{font-size:11px;color:#64788a}.empty{min-height:250px;display:flex;justify-content:center;align-items:center;text-align:center;flex-direction:column;color:#7b8ea1}.empty svg{margin-bottom:14px}.notice{padding:11px 13px;margin-top:14px;border-radius:8px;background:#fff4e6;color:#674510;font-size:12px;border:1px solid #f4dfc1}.error{background:#ffedf0;color:#a22132;border-color:#f4cbd1}.success{background:#edf8f2;color:#1b6b46;border-color:#c2e4d0}.tablewrap{overflow-x:auto;max-height:380px;border:1px solid #e0e5ed;border-radius:8px;margin-top:13px}table{border-collapse:collapse;width:100%;white-space:nowrap;font-size:12px}th{text-align:left;background:#edf3f9;position:sticky;top:0;z-index:1;color:#39516b}td,th{padding:9px 11px;border-bottom:1px solid #e7edf2}tr:hover td{background:#f6f9fc}.tag{padding:3px 7px;border-radius:4px;font-size:11px;font-weight:700}.High{background:#f9dfe3;color:#a32c36}.Medium{background:#fff0d1;color:#9e6111}.Low{background:#e0f1e7;color:#236d47}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}.rowbetween{display:flex;justify-content:space-between;align-items:center;gap:12px}.muted{color:#61768c;font-size:13px}.split{display:grid;grid-template-columns:1fr 1fr;gap:20px}.sub{border-top:1px solid #e9edf3;margin-top:19px;padding-top:15px}.checkline{font-size:12px;color:#576a7b}.foot{font-size:12px;color:#7b8999;margin-top:23px}@media(max-width:950px){.layout,.split{grid-template-columns:1fr}.statgrid{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<header><div><h1>AuditJE <span style="font-weight:400;color:#7ac8e8">/ Audit Analytics</span></h1><p>Local-first journal entry testing & evidence documentation · Prototype v0.1</p></div><span class="pill">● Runs on your laptop</span></header>
+<main>
+<div class="banner"><strong>Client confidentiality:</strong> This prototype processes files on your own computer through <code>127.0.0.1</code>. No cloud API, subscription, or AI service is used. Only import client data with appropriate authorization and follow your firm's data handling policy.</div>
+<div class="layout">
+<section class="panel">
+<h2>1. Upload journal entries</h2>
+<label for="file">General ledger export (.xlsx / .csv)</label><input type="file" id="file" accept=".xlsx,.csv">
+<p class="hint">Required: JE ID, Posting Date, Account, Debit, Credit. Optional: preparer, source, time and approval. See sample CSV.</p>
+<h3>Sampling setup</h3>
+<div class="fields">
+<div><label for="n">Sample size (JE count)</label><input id="n" type="number" min="0" max="1000" value="15"></div>
+<div><label for="risk">Risk-based selection (%)</label><input id="risk" type="number" min="0" max="100" value="60"></div>
+<div><label for="seed">Random seed</label><input id="seed" type="number" value="2026"></div>
+<div><label for="yearend">Fiscal year-end</label><input id="yearend" type="date"></div>
+</div>
+<h3>Independent control totals (optional)</h3>
+<p class="hint">Enter totals from an independent source system report. Blank means not tested.</p>
+<div class="fields"><div><label for="expectedLines">Number of ledger lines</label><input id="expectedLines" type="number" min="0" placeholder="e.g., 2500"></div><div><label for="debits">Total debits ($)</label><input id="debits" placeholder="e.g., 1250000"></div><div><label for="credits">Total credits ($)</label><input id="credits" placeholder="e.g., 1250000"></div></div>
+<div class="btn-row"><button class="btn" id="analyze">Analyze JEs</button><button class="btn secondary" id="demo">Use sample data</button></div>
+<div id="msg" aria-live="polite"></div>
+<div class="sub"><h2>3. Export workpaper</h2><p class="muted">Excel workbook includes the risk register, GL detail, sample workpaper, exceptions, control total checks, methods, and embedded screenshots.</p><button class="btn" id="export" disabled>Download audit workpaper (.xlsx)</button></div>
+</section>
+<div>
+<section class="panel"><div class="rowbetween"><h2>2. Audit analytics</h2><span id="sourceName" class="muted">No file analyzed</span></div>
+<div id="noData" class="empty"><svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#8daabe" stroke-width="1.4"><path d="M4 3h13l3 3v15H4z"/><path d="M16 3v4h4M8 12h8M8 16h6"/></svg><strong>Start with a journal-entry export</strong><span class="muted">See the sample data if you don't have a GL export ready.</span></div>
+<div id="results" hidden>
+<div class="statgrid"><div class="stat"><small>JOURNAL ENTRIES</small><strong id="count">–</strong></div><div class="stat"><small>HIGH-RISK JEs</small><strong id="high">–</strong></div><div class="stat"><small>QUALITY INDICATORS</small><strong id="exceptions">–</strong></div><div class="stat"><small>SELECTED SAMPLE</small><strong id="selected">–</strong></div></div>
+<div class="notice">A risk flag is a screening indicator, not proof of fraud. Imported line counts and balanced debits/credits alone do not prove population completeness.</div>
+<h3>Journal-entry risk register</h3>
+<div class="rowbetween"><span class="muted" id="registerCaption"></span><select id="tier" style="max-width:160px"><option value="All">All risk tiers</option><option>High</option><option>Medium</option><option>Low</option></select></div>
+<div class="tablewrap"><table><thead><tr><th>JE ID</th><th>Posted</th><th>Magnitude</th><th>Score</th><th>Tier</th><th>Flags</th><th>Sample</th></tr></thead><tbody id="riskTable"></tbody></table></div>
+<div class="split"><div><h3>Data quality exceptions</h3><div class="tablewrap"><table><thead><tr><th>JE ID</th><th>Indicator</th></tr></thead><tbody id="exceptionTable"></tbody></table></div></div><div><h3>Population control checks</h3><div id="controlChecks" class="muted">No independent control totals entered.</div></div></div>
+</div></section>
+<section class="panel" style="margin-top:20px"><h2>Optional: attach vouching screenshot</h2><p class="muted">Capture a voucher, invoice, or approval snippet yourself using Windows Snipping Tool, then attach a PNG/JPG to one of the selected entries. Images are embedded in the exported Excel file. No automatic OCR is performed.</p>
+<div class="fields"><div><label for="jeSelect">Selected journal entry</label><select id="jeSelect" disabled><option>Run analysis first</option></select></div><div><label for="evidenceLabel">Evidence reference</label><input id="evidenceLabel" placeholder="e.g., AP voucher 1102"></div></div>
+<label for="imageFile">Screenshot (.png/.jpg up to 3 MB)</label><input type="file" id="imageFile" accept="image/png,image/jpeg">
+<div class="btn-row"><button class="btn secondary" id="attach" disabled>Attach screenshot</button><span id="evidenceCount" class="muted" style="align-self:center">0 attachments</span></div>
+</section></div>
+</div>
+<p class="foot">AuditJE v0.1 · Transparent rule-based testing · Designed for development and authorized pilot testing; requires audit methodology validation, reviewer oversight, and security review before production use.</p>
+</main>
+<script>
+let analysis=null,evidence=[];const $=id=>document.getElementById(id);
+function escapeHTML(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function money(n){return new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:2}).format(n||0)}
+function notify(message,type='success'){$('msg').innerHTML=`<div class="notice ${type}">${escapeHTML(message)}</div>`;}
+function config(){return {sample_size:$('n').value,risk_fraction:Number($('risk').value)/100,seed:$('seed').value,fiscal_year_end:$('yearend').value,expected_lines:$('expectedLines').value,expected_debits:$('debits').value,expected_credits:$('credits').value}}
+function render(){if(!analysis)return;const s=analysis.summary;$('noData').hidden=true;$('results').hidden=false;$('export').disabled=false;$('attach').disabled=!analysis.samples.length;$('jeSelect').disabled=!analysis.samples.length;$('count').textContent=s.journal_entries.toLocaleString();$('high').textContent=s.high_risk.toLocaleString();$('exceptions').textContent=s.exceptions.toLocaleString();$('selected').textContent=s.selected.toLocaleString();
+$('jeSelect').innerHTML=analysis.samples.map(x=>`<option value="${escapeHTML(x.journal_id)}">${escapeHTML(x.journal_id)} — ${escapeHTML(x.selected_by)}</option>`).join('')||'<option>No entries selected</option>';
+$('exceptionTable').innerHTML=analysis.exceptions.slice(0,75).map(x=>`<tr><td>${escapeHTML(x.journal_id)}</td><td>${escapeHTML(x.type)}</td></tr>`).join('')||'<tr><td colspan="2">No exceptions detected</td></tr>';
+$('controlChecks').innerHTML=analysis.control_checks.length?'<div class="tablewrap"><table><thead><tr><th>Control</th><th>Difference</th><th>Result</th></tr></thead><tbody>'+analysis.control_checks.map(x=>`<tr><td>${escapeHTML(x.check)}</td><td>${escapeHTML(x.difference)}</td><td>${x.pass?'Agrees':'Investigate'}</td></tr>`).join('')+'</tbody></table></div>':'No independent control totals entered.';renderTable();}
+function renderTable(){if(!analysis)return;let tier=$('tier').value;let entries=analysis.entries.filter(x=>tier==='All'||x.risk_level===tier);$('registerCaption').textContent=`Displaying ${Math.min(250,entries.length)} of ${entries.length} JEs (all exported)`;$('riskTable').innerHTML=entries.slice(0,250).map(x=>`<tr><td><strong>${escapeHTML(x.journal_id)}</strong></td><td>${escapeHTML(x.posting_date)}</td><td>${money(x.magnitude)}</td><td>${x.risk_score}</td><td><span class="tag ${x.risk_level}">${x.risk_level}</span></td><td title="${escapeHTML(x.flags.join('; '))}">${escapeHTML(x.flags.join('; ')||'—')}</td><td>${escapeHTML(x.selected_by||'—')}</td></tr>`).join('');}
+$('tier').onchange=renderTable;
+function toBase64(file){return new Promise((resolve,reject)=>{const r=new FileReader();r.onload=()=>resolve(String(r.result).split(',',2)[1]);r.onerror=reject;r.readAsDataURL(file);});}
+async function execute(file){if(!file){notify('Choose a .csv or .xlsx file first.','error');return;}if(file.size>20*1024*1024){notify('File is above the 20 MB limit.','error');return;}
+$('analyze').disabled=true;notify('Analyzing journal entries locally…');try{const response=await fetch('/api/analyze',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({filename:file.name,content_base64:await toBase64(file),config:config()})});const data=await response.json();if(!response.ok)throw new Error(data.error||'Analysis failed');analysis=data;evidence=[];$('evidenceCount').textContent='0 attachments';$('sourceName').textContent=file.name;render();notify(`Analyzed ${data.summary.lines} rows across ${data.summary.journal_entries} journal entries.`);}catch(err){notify(err.message,'error')}finally{$('analyze').disabled=false}}
+$('analyze').onclick=()=>execute($('file').files[0]);
+$('demo').onclick=async()=>{const response=await fetch('/demo');if(response.ok){const blob=await response.blob();execute(new File([blob],'synthetic_journal_entries.csv',{type:'text/csv'}));}else{notify('Demo data is not available. Download the example CSV from the repository.','error')}};
+$('attach').onclick=()=>{const je=$('jeSelect').value,file=$('imageFile').files[0];if(!file||!je){notify('Select an entry and a PNG/JPG screenshot.','error');return;}if(!['image/png','image/jpeg'].includes(file.type)||file.size>3*1024*1024){notify('Only PNG/JPG images up to 3 MB are supported.','error');return;}const reader=new FileReader();reader.onload=()=>{if(evidence.length>=30){notify('Maximum 30 attachments per export.','error');return;}evidence.push({journal_id:je,label:$('evidenceLabel').value||file.name,data_url:reader.result});$('evidenceCount').textContent=`${evidence.length} attachment(s)`;notify(`Attached image to JE ${je}.`);};reader.readAsDataURL(file)};
+$('export').onclick=async()=>{try{const res=await fetch('/api/export',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({evidence})});if(!res.ok){const data=await res.json();throw new Error(data.error||'Export failed');}const blob=await res.blob(),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='AuditJE_Journal_Entry_Workpaper.xlsx';a.click();setTimeout(()=>URL.revokeObjectURL(url),5000);notify('Excel audit workpaper exported locally.');}catch(err){notify(err.message,'error')}};
+</script>
+</body>
+</html>
