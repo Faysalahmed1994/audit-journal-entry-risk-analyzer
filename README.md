@@ -1,6 +1,12 @@
 # AuditJE — Offline Journal Entry Risk & Workpaper Analyzer
 
-**Status: functional local prototype v0.1 — not validated for audit production.**
+**Status: public preview v0.1 — not validated for audit production.**
+
+**Try the interactive public demonstration (synthetic data only):** [AuditJE GitHub Pages](https://faysalahmed1994.github.io/audit-journal-entry-risk-analyzer/) *(available after the owner enables Pages; [one-time setup](docs/GO_LIVE.md))*.
+
+**Public review:** [Join the open review thread (#1)](https://github.com/Faysalahmed1994/audit-journal-entry-risk-analyzer/issues/1) · [Report a bug or request a feature](https://github.com/Faysalahmed1994/audit-journal-entry-risk-analyzer/issues/new/choose) · [Contribute or fork](CONTRIBUTING.md).
+
+**This hosted demo is not the same as the local offline application:** the website only operates on built-in synthetic data and does not accept files, attach vouchers, or generate XLSX workpapers. The full Python prototype below is downloadable for authorized local evaluation.
 
 > **PUBLIC PREVIEW — Feedback welcome.** AuditJE v0.1 is open for review while development continues. [Comment on the public review invitation (Issue #1)](https://github.com/Faysalahmed1994/audit-journal-entry-risk-analyzer/issues/1), [open a new feedback issue](https://github.com/Faysalahmed1994/audit-journal-entry-risk-analyzer/issues/new/choose), or read the [reviewer guide](docs/PUBLIC_REVIEW.md). Please test with **synthetic data only**. GitHub hosts the source code; there is **no hosted interactive application** yet. The prototype is rules-based, not AI-powered or production-validated.
 
@@ -77,4 +83,4 @@ python -m unittest discover -s tests -v
 
 The broader aim is to provide reusable, explainable audit analytics that may reduce repetitive audit preparation for small and mid-sized firms, government entities and nonprofit audits. Meaningful claims about time saved, detection quality, independent users and impact require real validation. This project may support the author's wider public-interest audit modernization endeavor; it is **not** evidence of approved NIW status or a legal outcome.
 
-**License:** Copyright is reserved unless the owner later selects and adds an open-source license. Public visibility does not itself grant permission to reuse code.
+**License:** [MIT License](LICENSE). Forks, pull requests, and modifications are welcome subject to license terms. Public comments and forks do not imply professional validation, endorsement, or adoption.
