@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="AuditJE public preview: interactive, rules-based journal entry audit screening using synthetic data. Try the sample, review the methodology, and send feedback on GitHub.">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="AuditJE v0.1 | Public Audit Analytics Preview">
+<meta property="og:description" content="Try an interactive journal-entry risk and sampling demo with entirely synthetic data; invite peer review on GitHub.">
+<title>AuditJE | Interactive Public Preview</title>
+<link rel="stylesheet" href="./demo.css">
+<script src="./demo.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="header">
+  <div class="header-inner">
+    <div><a class="brand" href="./">AuditJE <span>/ Audit Analytics</span></a><p class="eyebrow">Public preview v0.1 · Rule-based · Synthetic data</p></div>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="https://github.com/Faysalahmed1994/audit-journal-entry-risk-analyzer">View source / Fork</a>
+      <a href="https://github.com/Faysalahmed1994/audit-journal-entry-risk-analyzer/issues/1">Public review</a>
+      <a href="./PUBLIC_REVIEW.md">Reviewer guide</a>
+    </nav>
+  </div>
+</header>
+<main id="main" class="container">
+  <section class="hero" aria-labelledby="heading">
+    <div>
+      <span class="kicker">Audit innovation / Open public evaluation</span>
+      <h1 id="heading">See the journal-entry risk signals.<br>Challenge the assumptions.</h1>
+      <p>Interact with a sample audit risk register, experiment with reproducible selection, and examine an explainable scoring model. This website is a <strong>limited static demonstration</strong> of the separately downloadable AuditJE offline prototype.</p>
+      <div class="ctas">
+        <a class="cta" href="https://github.com/Faysalahmed1994/audit-journal-entry-risk-analyzer/issues/1">Share feedback / Comment</a>
+        <a class="cta secondary" href="https://github.com/Faysalahmed1994/audit-journal-entry-risk-analyzer/fork">Fork the project</a>
+        <a class="cta secondary" href="https://github.com/Faysalahmed1994/audit-journal-entry-risk-analyzer/archive/refs/heads/main.zip">Download offline app</a>
+      </div>
+    </div>
+  </section>
+  <div class="notice" role="note"><strong>Public demonstration, not audit assurance:</strong> All displayed journal entries are simulated. This demo makes <strong>no network requests</strong> to process data, accepts no file uploads, and has no actual client or voucher records. High risk does not establish fraud. AuditJE is under active development and <strong>not approved for production audit use</strong>.</div>
+  <div class="grid">
+    <aside class="card" aria-labelledby="setup">
+      <h2 id="setup">1. Choose a sampling approach</h2>
+      <p class="subtext">Change the selections below. The 36-entry dataset is fixed and entirely synthetic; sample IDs update immediately.</p>
+      <div class="form-grid">
+        <div><label for="sample-size">Sample size (JEs)</label><input id="sample-size" type="number" min="0" max="36" step="1" value="12"></div>
+        <div><label for="risk-percent">Risk-based share (%)</label><input id="risk-percent" type="number" min="0" max="100" step="5" value="60"></div>
+        <div style="grid-column:1/-1"><label for="random-seed">Deterministic random seed</label><input id="random-seed" type="number" value="2026"></div>
+      </div>
+      <p class="hint">The highest-risk entries are selected first; remaining slots use a seeded pseudorandom selection. This is a teaching example, <strong>not</strong> a statistical sampling methodology.</p>
+      <div class="btn-row"><button id="reset" type="button" class="outline">Reset controls</button><button id="export" type="button" class="primary">Download demo risk CSV</button></div>
+      <div class="section-line"></div>
+      <h3>How the scores work</h3>
+      <p class="hint">Indicators include unbalanced entries, weekend/after-hours activity, round or large values, manual sources, year-end proximity, missing preparer, pending approval, and duplicate-line indicators.</p>
+      <p class="hint">Current rule weights are documented in the <a href="./METHODOLOGY.md">audit methodology</a>. Scores are heuristic and require independent validation.</p>
+      <h3>Want to test a real audit export?</h3>
+      <p class="hint">Use the separately downloadable <a href="https://github.com/Faysalahmed1994/audit-journal-entry-risk-analyzer">local AuditJE application</a> only with permission and after reviewing its limitations. <strong>Never put client data into public GitHub issues.</strong></p>
+    </aside>
+    <section class="card" aria-labelledby="dashboard">
+      <h2 id="dashboard">2. Explore the synthetic risk dashboard</h2>
+      <p class="subtext">Dynamic sample analytics reflect only the demonstration dataset.</p>
+      <div class="summary" aria-live="polite">
+        <div class="stat"><small>JOURNAL ENTRIES</small><strong id="total-entries">—</strong></div>
+        <div class="stat"><small>HIGH-RISK ENTRIES</small><strong id="high-count">—</strong></div>
+        <div class="stat"><small>DATA-QUALITY FLAGS</small><strong id="quality-count">—</strong></div>
+        <div class="stat"><small>SELECTED SAMPLE</small><strong id="sample-count">—</strong></div>
+      </div>
+      <div class="two-col">
+        <section aria-labelledby="distribution">
+          <h3 id="distribution">Risk distribution</h3>
+          <div id="risk-bars" aria-label="Distribution of synthetic journal-entry risk categories"></div>
+        </section>
+        <section aria-labelledby="totals">
+          <h3 id="totals">Illustrative internal totals</h3>
+          <div class="control-totals">
+            <div><small>Debit lines</small><strong id="debit-total">—</strong></div>
+            <div><small>Credit lines</small><strong id="credit-total">—</strong></div>
+            <div><small>Difference</small><strong id="difference">—</strong></div>
+          </div>
+          <p id="control-note" class="note" aria-live="polite"></p>
+        </section>
+      </div>
+      <div class="section-line"></div>
+      <div class="table-actions">
+        <div><h3 style="margin:0">Risk register</h3><p class="hint" id="results-count" aria-live="polite"></p></div>
+        <div class="filters">
+          <label for="tier-filter" style="position:absolute;left:-9999px">Filter by risk</label>
+          <select id="tier-filter"><option value="All">All risk tiers</option><option value="High">High</option><option value="Medium">Medium</option><option value="Low">Low</option></select>
+          <label for="search" style="position:absolute;left:-9999px">Search entries</label>
+          <input id="search" type="search" placeholder="Search JE ID or indicator">
+        </div>
+      </div>
+      <div class="table-scroll" role="region" aria-label="Scrollable synthetic journal-entry risk register" tabindex="0">
+        <table><thead><tr><th scope="col">JE ID</th><th scope="col">Posting date</th><th scope="col">Magnitude</th><th scope="col">Score</th><th scope="col">Risk</th><th scope="col">Risk indicators</th><th scope="col">Selection</th></tr></thead><tbody id="risk-tbody"><tr><td colspan="7">Loading sample…</td></tr></tbody></table>
+      </div>
+    </section>
+  </div>
+  <section class="about-grid" aria-label="Participate in project evaluation">
+    <div class="card"><h3>Review the method</h3><p>Check explainability, completeness caveats, score weights and sampling limitations. <a href="./METHODOLOGY.md">Read methodology</a>.</p></div>
+    <div class="card"><h3>Report a bug</h3><p>Use the issue template to submit reproducible observations with synthetic examples only. <a href="https://github.com/Faysalahmed1994/audit-journal-entry-risk-analyzer/issues/new/choose">Create issue</a>.</p></div>
+    <div class="card"><h3>Contribute or fork</h3><p>Read contribution guidance and propose improvements through pull requests. <a href="https://github.com/Faysalahmed1994/audit-journal-entry-risk-analyzer/blob/main/CONTRIBUTING.md">Contribution guide</a>.</p></div>
+  </section>
+  <footer class="footer">
+    <p>AuditJE v0.1 — early-stage independent prototype · Explanatory heuristics, not an audit opinion or fraud determination.</p>
+    <p>Public comments and forks are welcome. Feedback does not imply formal validation, endorsement, or adoption.</p>
+  </footer>
+</main>
+</body>
+</html>
