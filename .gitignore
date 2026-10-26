@@ -1,0 +1,19 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+venv/
+.DS_Store
+*.log
+# Never commit real audit data or evidence
+client_data/
+audit_data/
+private/
+exports/
+*.xlsx
+*.xls
+*.pdf
+*.png
+*.jpg
+*.jpeg
+!examples/*.csv
