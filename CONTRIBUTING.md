@@ -5,17 +5,17 @@ Thank you for contributing to AuditJE, a public-preview journal-entry testing pr
 ## Quick start
 
 1. Review the [README](README.md), [methodology](docs/METHODOLOGY.md), [data dictionary](docs/DATA_DICTIONARY.md), and [public reviewer guide](docs/PUBLIC_REVIEW.md).
-2. Try the [live synthetic-data preview](https://faysalahmed1994.github.io/audit-journal-entry-risk-analyzer/) **once GitHub Pages has been enabled**, or run the offline Python version locally.
+2. Try the [web app](https://faysalahmed1994.github.io/audit-journal-entry-risk-analyzer/) with the synthetic sample engagement, or run it locally with `npm run serve`.
 3. [Open an issue](https://github.com/Faysalahmed1994/audit-journal-entry-risk-analyzer/issues/new/choose) before a substantial change so the scope can be discussed.
 4. Fork the repository, create a named branch, commit your changes, and open a pull request against `main`.
-5. For Python logic changes, run `python -m unittest discover -s tests -v`. Add synthetic regression tests for bug fixes.
+5. For web app changes run `npm test` and `npm run test:e2e`; for Python changes run `python -m unittest discover -s tests -v`. Add synthetic regression tests for bug fixes.
 6. Describe what changed, the audit impact, and limitations; include screenshots using **synthetic data only**.
 
 ## Scope
 
 Especially welcome: parser correctness, source-to-population reconciliation controls, reproducible sampling, methodology transparency, local security, Excel workpaper usability, accessibility, and reviewer documentation.
 
-Please keep changes narrowly scoped. The Python offline audit application and the browser-only synthetic demo intentionally have different capabilities. Do not suggest that the browser preview can vouch actual entries, accept client records, or generate verified audit conclusions.
+Please keep changes narrowly scoped. The web app must keep processing local to the browser: do not add analytics, remote fonts, CDNs or any network calls (the end-to-end test fails on outside requests). Do not describe AuditJE outputs as verified audit conclusions.
 
 ## Security and client confidentiality
 

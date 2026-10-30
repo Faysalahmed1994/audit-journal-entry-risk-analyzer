@@ -10,17 +10,28 @@
 - [x] Auditor-added voucher screenshots embedded in the Excel workpaper
 - [x] Test fixtures, tests and methodology
 
-## v0.2 — audit methodology and assurance
-- [ ] User-defined audit periods, materiality and account-level rule weighting
-- [ ] Control totals cross-checking against TB/GL outside uploaded JE file
-- [ ] Robust two-sided/sign-adjusted journal extraction, source-system templates
-- [ ] Multi-entity and fiscal-year handling / JE-ID collisions
-- [ ] JE posting vs effective date, reversed entries, sequential ID gaps where valid
-- [ ] Scalable import (large general ledgers) and performance testing
-- [ ] Reviewer override / documented sample modifications and audit trail
+## v0.2 — browser web app (included)
+- [x] Static web app on GitHub Pages; all processing in the browser, no uploads
+- [x] Engagement folder (File System Access API) with population, voucher and workpaper subfolders and autosaved progress
+- [x] Column mapping UI; signed-amount files; flexible dates, times and amount formats
+- [x] Completeness: control totals, TB roll-forward, period coverage, journal number gaps, population hash
+- [x] 19 fraud-risk characteristics (AU-C 240 / AS 2401) with adjustable weights; Benford first-digit test
+- [x] User-defined period, threshold (key items) and rule settings
+- [x] Key item + risk-based + seeded random selection; reasoned overrides with audit trail
+- [x] Vouching: attach documents, voucher references, attribute testing, exceptions
+- [x] Excel workpaper with hyperlinked voucher index, sign-offs and methodology
+- [x] Unit tests and full browser end-to-end test in CI
 
-## v0.3 — evidence capture
-- [ ] Drag and drop invoice/voucher support, PDF excerpts and image annotations
+## v0.3 — methodology depth
+- [ ] Account-level rules (e.g., unusual revenue/cash pairings) using an account type column
+- [ ] Reversing entries and reversal matching
+- [ ] Multi-entity and multi-fund populations; JE-ID collisions across funds
+- [ ] Reviewer mode: review notes and sign-off per sampled entry
+- [ ] Performance testing above 1 million lines (Web Worker parsing)
+
+## v0.4 — evidence capture
+- [x] Drag and drop voucher support (delivered in v0.2)
+- [ ] PDF excerpts and image annotations
 - [ ] OCR-assisted extraction restricted to on-device libraries
 - [ ] Automatic invoice number/amount cross-check subject to independent verification
 - [ ] Reusable firm's workpaper template mappings
@@ -29,7 +40,7 @@
 ## v1.0 — validated, distributable desktop package
 - [ ] Firm-methodology review, risk thresholds back-test against independently labeled cases
 - [ ] Security assessment and local file encryption
-- [ ] Windows installer (.exe), no Python setup needed after installation
+- [x] No installation needed: runs in the browser and can be installed as an app from Chrome/Edge (v0.2)
 - [ ] Repeatable benchmark using synthetic/openly licensed datasets
 - [ ] Independent auditor pilot with written consent and feedback
 - [ ] Public documentation of time saved, error rates, and limitations

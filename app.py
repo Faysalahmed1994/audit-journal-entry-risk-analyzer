@@ -37,7 +37,21 @@ class Handler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(payload)
 
+    def _trusted(self):
+        """Reject requests not addressed to this local server (blocks DNS rebinding and cross-site posts)."""
+        port = self.server.server_address[1]
+        allowed = {f"127.0.0.1:{port}", f"localhost:{port}"}
+        if self.headers.get("Host", "") not in allowed:
+            return False
+        origin = self.headers.get("Origin")
+        if origin is not None and origin not in {f"http://{h}" for h in allowed}:
+            return False
+        return True
+
     def do_GET(self):
+        if not self._trusted():
+            self.respond(403, {"error": "Forbidden"})
+            return
         if self.path in ("/", "/index.html"):
             self.respond(200, (HERE / "index.html").read_bytes(), "text/html; charset=utf-8")
         elif self.path == "/demo":
@@ -48,6 +62,9 @@ class Handler(BaseHTTPRequestHandler):
             self.respond(404, {"error": "Not found"})
 
     def do_POST(self):
+        if not self._trusted() or not self.headers.get("Content-Type", "").startswith("application/json"):
+            self.respond(403, {"error": "Forbidden"})
+            return
         if self.path not in ("/api/analyze", "/api/export"):
             self.respond(404, {"error": "Not found"})
             return

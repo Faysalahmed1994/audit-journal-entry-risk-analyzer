@@ -1,0 +1,17 @@
+{
+  "name": "auditje",
+  "version": "0.2.0",
+  "private": true,
+  "description": "AuditJE browser app — development and test tooling only (the app itself has no build step).",
+  "scripts": {
+    "test": "node --test tests/engine.test.mjs",
+    "test:e2e": "node tests/e2e/app.e2e.cjs",
+    "sample": "node tools/generate-sample.mjs",
+    "serve": "python3 -m http.server 8000 --directory docs"
+  },
+  "devDependencies": {
+    "exceljs": "4.4.0",
+    "playwright": "^1.49.0"
+  },
+  "license": "MIT"
+}

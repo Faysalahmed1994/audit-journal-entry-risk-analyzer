@@ -1,0 +1,20 @@
+account,beginning_balance,ending_balance
+1010 Cash - Operating,2450000.00,3091631.77
+1210 Taxes Receivable,612000.00,587745.36
+1410 Due From Other Funds,45000.00,75000.00
+1810 Capital Assets,0.00,60000.00
+2010 Accounts Payable,-187500.00,-763489.78
+2110 Accrued Payroll,-94000.00,-1658139.77
+2310 Unearned Revenue,-120000.00,-120000.00
+4010 Property Tax Revenue,0.00,-5235706.34
+4310 Intergovernmental Grants,0.00,-976102.71
+4410 Charges for Services,0.00,-94833.22
+4910 Miscellaneous Revenue,0.00,250000.00
+5010 Salaries and Wages,0.00,5045612.20
+5110 Employee Benefits,0.00,1564139.77
+5210 Supplies,0.00,73253.11
+5310 Contractual Services,0.00,158767.44
+5410 Utilities,0.00,135635.98
+5810 Capital Outlay,0.00,417506.19
+5950 Legal Settlements,0.00,95000.00
+3010 Fund Balance,-2705500.00,-2705500.00

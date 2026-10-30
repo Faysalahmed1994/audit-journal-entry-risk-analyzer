@@ -67,5 +67,29 @@ class AuditJETests(unittest.TestCase):
         self.assertEqual(safe_cell("+1+1"), "'+1+1")
 
 
+class LocalServerSecurityTests(unittest.TestCase):
+    def test_rejects_foreign_host_and_non_json_posts(self):
+        import threading, urllib.request, urllib.error
+        from http.server import ThreadingHTTPServer
+        from app import Handler
+        server = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+        threading.Thread(target=server.serve_forever, daemon=True).start()
+        port = server.server_address[1]
+        def call(headers, data=b"{}"):
+            req = urllib.request.Request(f"http://127.0.0.1:{port}/api/export", data=data, headers=headers, method="POST")
+            try:
+                return urllib.request.urlopen(req).status
+            except urllib.error.HTTPError as err:
+                return err.code
+        try:
+            self.assertEqual(call({"Host": "evil.example", "Content-Type": "application/json"}), 403)
+            self.assertEqual(call({"Content-Type": "text/plain"}), 403)
+            self.assertEqual(call({"Content-Type": "application/json", "Origin": "https://evil.example"}), 403)
+            self.assertEqual(call({"Content-Type": "application/json"}), 400)  # trusted, but nothing analyzed yet
+        finally:
+            server.shutdown()
+            server.server_close()
+
+
 if __name__ == "__main__":
     unittest.main()
