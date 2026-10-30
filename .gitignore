@@ -17,3 +17,13 @@ exports/
 *.jpg
 *.jpeg
 !examples/*.csv
+# AuditJE engagement folders (client data) must never be committed
+engagement.json
+01_Population/
+02_Workpapers/
+03_Vouchers/
+# Synthetic, generated test fixtures only
+!tests/e2e/fixtures/*.png
+!tests/e2e/fixtures/*.pdf
+
+node_modules/

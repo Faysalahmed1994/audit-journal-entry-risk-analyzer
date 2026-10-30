@@ -1,0 +1,823 @@
+journal_id,line_id,posting_date,effective_date,account,debit,credit,description,preparer,approved_by,entry_time,source,approval_status
+JE-1343,001,2025-07-01,2025-07-01,1210 Taxes Receivable,463364.65,0,Property tax levy recognition month 1,agarcia,finance.director,15:14,GL,Approved
+JE-1343,002,2025-07-01,2025-07-01,4010 Property Tax Revenue,0,463364.65,Property tax levy recognition month 1,agarcia,controller,15:14,GL,Approved
+JE-1384,001,2025-07-01,2025-07-01,1010 Cash - Operating,1831.14,0,Permit and service fees deposit 30,mjohnson,finance.director,15:58,Cash Receipts,Approved
+JE-1384,002,2025-07-01,2025-07-01,4410 Charges for Services,0,1831.14,Permit and service fees deposit 30,mjohnson,controller,15:58,Cash Receipts,Approved
+JE-1053,001,2025-07-03,2025-07-03,5410 Utilities,261.91,0,Vendor invoice 10592 - Utilities,mjohnson,finance.director,08:13,AP,Approved
+JE-1053,002,2025-07-03,2025-07-03,2010 Accounts Payable,0,261.91,Vendor invoice 10592 - Utilities,mjohnson,finance.director,08:13,AP,Approved
+JE-1195,001,2025-07-03,2025-07-03,2010 Accounts Payable,4185.56,0,Check run 5109,agarcia,finance.director,08:29,AP,Approved
+JE-1195,002,2025-07-03,2025-07-03,1010 Cash - Operating,0,4185.56,Check run 5109,agarcia,controller,08:29,AP,Approved
+JE-1001,001,2025-07-04,2025-07-04,5010 Salaries and Wages,197845.93,0,Payroll period 1,tnguyen,controller,15:02,Payroll,Approved
+JE-1001,002,2025-07-04,2025-07-04,1010 Cash - Operating,0,197845.93,Payroll period 1,tnguyen,finance.director,15:02,Payroll,Approved
+JE-1002,001,2025-07-04,2025-07-04,5110 Employee Benefits,61332.24,0,Benefits accrual period 1,mjohnson,finance.director,14:18,Payroll,Approved
+JE-1002,002,2025-07-04,2025-07-04,2110 Accrued Payroll,0,61332.24,Benefits accrual period 1,mjohnson,controller,14:18,Payroll,Approved
+JE-1115,001,2025-07-08,2025-07-08,5410 Utilities,15037.38,0,Vendor invoice 58579 - Utilities,agarcia,finance.director,16:09,AP,Approved
+JE-1115,002,2025-07-08,2025-07-08,2010 Accounts Payable,0,15037.38,Vendor invoice 58579 - Utilities,agarcia,finance.director,16:09,AP,Approved
+JE-1322,001,2025-07-08,2025-07-08,1010 Cash - Operating,188106.36,0,Property tax collections batch 40,agarcia,finance.director,17:59,Cash Receipts,Approved
+JE-1322,002,2025-07-08,2025-07-08,1210 Taxes Receivable,0,188106.36,Property tax collections batch 40,agarcia,controller,17:59,Cash Receipts,Approved
+JE-1188,001,2025-07-09,2025-07-09,2010 Accounts Payable,369.81,0,Check run 9760,agarcia,controller,11:40,AP,Approved
+JE-1188,002,2025-07-09,2025-07-09,1010 Cash - Operating,0,369.81,Check run 9760,agarcia,finance.director,11:40,AP,Approved
+JE-1261,001,2025-07-09,2025-07-09,2010 Accounts Payable,13082.77,0,Check run 7669,tnguyen,controller,11:07,AP,Approved
+JE-1261,002,2025-07-09,2025-07-09,1010 Cash - Operating,0,13082.77,Check run 7669,tnguyen,finance.director,11:07,AP,Approved
+JE-1334,001,2025-07-09,2025-07-09,1010 Cash - Operating,34306.81,0,Property tax collections batch 52,mjohnson,finance.director,08:07,Cash Receipts,Approved
+JE-1334,002,2025-07-09,2025-07-09,1210 Taxes Receivable,0,34306.81,Property tax collections batch 52,mjohnson,finance.director,08:07,Cash Receipts,Approved
+JE-1089,001,2025-07-10,2025-07-10,5410 Utilities,158.48,0,Vendor invoice 60774 - Utilities,mjohnson,finance.director,10:48,AP,Approved
+JE-1089,002,2025-07-10,2025-07-10,2010 Accounts Payable,0,158.48,Vendor invoice 60774 - Utilities,mjohnson,finance.director,10:48,AP,Approved
+JE-1104,001,2025-07-10,2025-07-10,5410 Utilities,205.10,0,Vendor invoice 31733 - Utilities,agarcia,finance.director,09:14,AP,Approved
+JE-1104,002,2025-07-10,2025-07-10,2010 Accounts Payable,0,205.10,Vendor invoice 31733 - Utilities,agarcia,finance.director,09:14,AP,Approved
+JE-1124,001,2025-07-10,2025-07-10,5310 Contractual Services,443.44,0,Vendor invoice 52038 - Contractual Services,mjohnson,controller,16:40,AP,Approved
+JE-1124,002,2025-07-10,2025-07-10,2010 Accounts Payable,0,443.44,Vendor invoice 52038 - Contractual Services,mjohnson,finance.director,16:40,AP,Approved
+JE-1145,001,2025-07-10,2025-07-10,5210 Supplies,6029.18,0,Vendor invoice 52132 - Supplies,mjohnson,controller,17:38,AP,Approved
+JE-1145,002,2025-07-10,2025-07-10,2010 Accounts Payable,0,6029.18,Vendor invoice 52132 - Supplies,mjohnson,controller,17:38,AP,Approved
+JE-1234,001,2025-07-15,2025-07-15,2010 Accounts Payable,291.95,0,Check run 8507,mjohnson,finance.director,11:46,AP,Approved
+JE-1234,002,2025-07-15,2025-07-15,1010 Cash - Operating,0,291.95,Check run 8507,mjohnson,finance.director,11:46,AP,Approved
+JE-1310,001,2025-07-15,2025-07-15,1010 Cash - Operating,160422.41,0,Property tax collections batch 28,tnguyen,controller,17:12,Cash Receipts,Approved
+JE-1310,002,2025-07-15,2025-07-15,1210 Taxes Receivable,0,160422.41,Property tax collections batch 28,tnguyen,finance.director,17:12,Cash Receipts,Approved
+JE-1003,001,2025-07-18,2025-07-18,5010 Salaries and Wages,201188.33,0,Payroll period 2,tnguyen,controller,15:07,Payroll,Approved
+JE-1003,002,2025-07-18,2025-07-18,1010 Cash - Operating,0,201188.33,Payroll period 2,tnguyen,controller,15:07,Payroll,Approved
+JE-1004,001,2025-07-18,2025-07-18,5110 Employee Benefits,62368.38,0,Benefits accrual period 2,tnguyen,finance.director,10:24,Payroll,Approved
+JE-1004,002,2025-07-18,2025-07-18,2110 Accrued Payroll,0,62368.38,Benefits accrual period 2,tnguyen,finance.director,10:24,Payroll,Approved
+JE-1139,001,2025-07-18,2025-07-18,5310 Contractual Services,197.02,0,Vendor invoice 84961 - Contractual Services,agarcia,controller,17:49,AP,Approved
+JE-1139,002,2025-07-18,2025-07-18,2010 Accounts Payable,0,197.02,Vendor invoice 84961 - Contractual Services,agarcia,controller,17:49,AP,Approved
+JE-1157,001,2025-07-18,2025-07-18,5210 Supplies,362.36,0,Vendor invoice 22261 - Supplies,agarcia,finance.director,08:12,AP,Approved
+JE-1157,002,2025-07-18,2025-07-18,2010 Accounts Payable,0,362.36,Vendor invoice 22261 - Supplies,agarcia,controller,08:12,AP,Approved
+JE-1271,001,2025-07-18,2025-07-18,2010 Accounts Payable,6577.42,0,Check run 8390,mjohnson,controller,17:35,AP,Approved
+JE-1271,002,2025-07-18,2025-07-18,1010 Cash - Operating,0,6577.42,Check run 8390,mjohnson,finance.director,17:35,AP,Approved
+JE-1319,001,2025-07-18,2025-07-18,1010 Cash - Operating,59184.87,0,Property tax collections batch 37,tnguyen,finance.director,10:12,Cash Receipts,Approved
+JE-1319,002,2025-07-18,2025-07-18,1210 Taxes Receivable,0,59184.87,Property tax collections batch 37,tnguyen,finance.director,10:12,Cash Receipts,Approved
+JE-1401,001,2025-07-18,2025-07-18,5810 Capital Outlay,48335.25,0,Street improvement contractor pay app 3,tnguyen,controller,11:07,AP,Approved
+JE-1401,002,2025-07-18,2025-07-18,2010 Accounts Payable,0,48335.25,Street improvement contractor pay app 3,tnguyen,finance.director,11:07,AP,Approved
+JE-1153,001,2025-07-21,2025-07-21,5210 Supplies,1449.73,0,Vendor invoice 89896 - Supplies,tnguyen,controller,14:02,AP,Approved
+JE-1153,002,2025-07-21,2025-07-21,2010 Accounts Payable,0,1449.73,Vendor invoice 89896 - Supplies,tnguyen,controller,14:02,AP,Approved
+JE-1226,001,2025-07-22,2025-07-22,2010 Accounts Payable,174.69,0,Check run 6493,agarcia,finance.director,17:53,AP,Approved
+JE-1226,002,2025-07-22,2025-07-22,1010 Cash - Operating,0,174.69,Check run 6493,agarcia,finance.director,17:53,AP,Approved
+JE-1071,001,2025-07-23,2025-07-23,5410 Utilities,2542.76,0,Vendor invoice 26565 - Utilities,agarcia,controller,08:51,AP,Approved
+JE-1071,002,2025-07-23,2025-07-23,2010 Accounts Payable,0,2542.76,Vendor invoice 26565 - Utilities,agarcia,controller,08:51,AP,Approved
+JE-1324,001,2025-07-23,2025-07-23,1010 Cash - Operating,23851.33,0,Property tax collections batch 42,mjohnson,finance.director,14:33,Cash Receipts,Approved
+JE-1324,002,2025-07-23,2025-07-23,1210 Taxes Receivable,0,23851.33,Property tax collections batch 42,mjohnson,finance.director,14:33,Cash Receipts,Approved
+JE-1370,001,2025-07-23,2025-07-23,1010 Cash - Operating,4445.00,0,Permit and service fees deposit 16,tnguyen,controller,08:06,Cash Receipts,Approved
+JE-1370,002,2025-07-23,2025-07-23,4410 Charges for Services,0,4445.00,Permit and service fees deposit 16,tnguyen,controller,08:06,Cash Receipts,Approved
+JE-1379,001,2025-07-23,2025-07-23,1010 Cash - Operating,1238.12,0,Permit and service fees deposit 25,agarcia,finance.director,14:15,Cash Receipts,Approved
+JE-1379,002,2025-07-23,2025-07-23,4410 Charges for Services,0,1238.12,Permit and service fees deposit 25,agarcia,finance.director,14:15,Cash Receipts,Approved
+JE-1368,001,2025-07-24,2025-07-24,1010 Cash - Operating,439.42,0,Permit and service fees deposit 14,tnguyen,controller,14:50,Cash Receipts,Approved
+JE-1368,002,2025-07-24,2025-07-24,4410 Charges for Services,0,439.42,Permit and service fees deposit 14,tnguyen,controller,14:50,Cash Receipts,Approved
+JE-1398,001,2025-07-25,2025-07-25,1010 Cash - Operating,96282.84,0,State grant reimbursement Q4,tnguyen,controller,16:09,Cash Receipts,Approved
+JE-1398,002,2025-07-25,2025-07-25,4310 Intergovernmental Grants,0,96282.84,State grant reimbursement Q4,tnguyen,finance.director,16:09,Cash Receipts,Approved
+JE-1128,001,2025-07-28,2025-07-28,5410 Utilities,173.39,0,Vendor invoice 33350 - Utilities,agarcia,controller,08:34,AP,Approved
+JE-1128,002,2025-07-28,2025-07-28,2010 Accounts Payable,0,173.39,Vendor invoice 33350 - Utilities,agarcia,finance.director,08:34,AP,Approved
+JE-1247,001,2025-07-28,2025-07-28,2010 Accounts Payable,1182.04,0,Check run 8294,mjohnson,finance.director,11:44,AP,Approved
+JE-1247,002,2025-07-28,2025-07-28,1010 Cash - Operating,0,1182.04,Check run 8294,mjohnson,finance.director,11:44,AP,Approved
+JE-1266,001,2025-07-28,2025-07-28,2010 Accounts Payable,12215.38,0,Check run 6127,agarcia,finance.director,09:55,AP,Approved
+JE-1266,002,2025-07-28,2025-07-28,1010 Cash - Operating,0,12215.38,Check run 6127,agarcia,controller,09:55,AP,Approved
+JE-1082,001,2025-07-29,2025-07-29,5310 Contractual Services,1541.88,0,Vendor invoice 67964 - Contractual Services,agarcia,finance.director,13:38,AP,Approved
+JE-1082,002,2025-07-29,2025-07-29,2010 Accounts Payable,0,1541.88,Vendor invoice 67964 - Contractual Services,agarcia,controller,13:38,AP,Approved
+JE-1117,001,2025-07-30,2025-07-30,5310 Contractual Services,96.47,0,Vendor invoice 67117 - Contractual Services,mjohnson,controller,08:39,AP,Approved
+JE-1117,002,2025-07-30,2025-07-30,2010 Accounts Payable,0,96.47,Vendor invoice 67117 - Contractual Services,mjohnson,finance.director,08:39,AP,Approved
+JE-1081,001,2025-07-31,2025-07-31,5210 Supplies,723.44,0,Vendor invoice 50936 - Supplies,agarcia,controller,09:41,AP,Approved
+JE-1081,002,2025-07-31,2025-07-31,2010 Accounts Payable,0,723.44,Vendor invoice 50936 - Supplies,agarcia,controller,09:41,AP,Approved
+JE-1005,001,2025-08-01,2025-08-01,5010 Salaries and Wages,191202.47,0,Payroll period 3,agarcia,finance.director,16:29,Payroll,Approved
+JE-1005,002,2025-08-01,2025-08-01,1010 Cash - Operating,0,191202.47,Payroll period 3,agarcia,controller,16:29,Payroll,Approved
+JE-1006,001,2025-08-01,2025-08-01,5110 Employee Benefits,59272.77,0,Benefits accrual period 3,tnguyen,finance.director,08:34,Payroll,Approved
+JE-1006,002,2025-08-01,2025-08-01,2110 Accrued Payroll,0,59272.77,Benefits accrual period 3,tnguyen,finance.director,08:34,Payroll,Approved
+JE-1084,001,2025-08-01,2025-08-01,5210 Supplies,535.05,0,Vendor invoice 96699 - Supplies,tnguyen,finance.director,11:25,AP,Approved
+JE-1084,002,2025-08-01,2025-08-01,2010 Accounts Payable,0,535.05,Vendor invoice 96699 - Supplies,tnguyen,controller,11:25,AP,Approved
+JE-1194,001,2025-08-01,2025-08-01,2010 Accounts Payable,482.14,0,Check run 8299,tnguyen,controller,10:03,AP,Approved
+JE-1194,002,2025-08-01,2025-08-01,1010 Cash - Operating,0,482.14,Check run 8299,tnguyen,finance.director,10:03,AP,Approved
+JE-1344,001,2025-08-01,2025-08-01,1210 Taxes Receivable,390023.74,0,Property tax levy recognition month 2,agarcia,finance.director,08:16,GL,Approved
+JE-1344,002,2025-08-01,2025-08-01,4010 Property Tax Revenue,0,390023.74,Property tax levy recognition month 2,agarcia,controller,08:16,GL,Approved
+JE-1217,001,2025-08-04,2025-08-04,2010 Accounts Payable,332.59,0,Check run 7095,mjohnson,finance.director,15:01,AP,Approved
+JE-1217,002,2025-08-04,2025-08-04,1010 Cash - Operating,0,332.59,Check run 7095,mjohnson,finance.director,15:01,AP,Approved
+JE-1369,001,2025-08-04,2025-08-04,1010 Cash - Operating,1019.70,0,Permit and service fees deposit 15,tnguyen,finance.director,08:04,Cash Receipts,Approved
+JE-1369,002,2025-08-04,2025-08-04,4410 Charges for Services,0,1019.70,Permit and service fees deposit 15,tnguyen,controller,08:04,Cash Receipts,Approved
+JE-1390,001,2025-08-07,2025-08-07,1010 Cash - Operating,2452.61,0,Permit and service fees deposit 36,agarcia,finance.director,08:20,Cash Receipts,Approved
+JE-1390,002,2025-08-07,2025-08-07,4410 Charges for Services,0,2452.61,Permit and service fees deposit 36,agarcia,finance.director,08:20,Cash Receipts,Approved
+JE-1112,001,2025-08-12,2025-08-12,5410 Utilities,321.33,0,Vendor invoice 56878 - Utilities,agarcia,controller,13:50,AP,Approved
+JE-1112,002,2025-08-12,2025-08-12,2010 Accounts Payable,0,321.33,Vendor invoice 56878 - Utilities,agarcia,finance.director,13:50,AP,Approved
+JE-1183,001,2025-08-12,2025-08-12,2010 Accounts Payable,210.89,0,Check run 5005,mjohnson,finance.director,08:17,AP,Approved
+JE-1183,002,2025-08-12,2025-08-12,1010 Cash - Operating,0,210.89,Check run 5005,mjohnson,finance.director,08:17,AP,Approved
+JE-1360,001,2025-08-12,2025-08-12,1010 Cash - Operating,6789.16,0,Permit and service fees deposit 6,agarcia,finance.director,11:15,Cash Receipts,Approved
+JE-1360,002,2025-08-12,2025-08-12,4410 Charges for Services,0,6789.16,Permit and service fees deposit 6,agarcia,finance.director,11:15,Cash Receipts,Approved
+JE-1362,001,2025-08-12,2025-08-12,1010 Cash - Operating,1109.20,0,Permit and service fees deposit 8,mjohnson,controller,11:20,Cash Receipts,Approved
+JE-1362,002,2025-08-12,2025-08-12,4410 Charges for Services,0,1109.20,Permit and service fees deposit 8,mjohnson,controller,11:20,Cash Receipts,Approved
+JE-1367,001,2025-08-12,2025-08-12,1010 Cash - Operating,2033.97,0,Permit and service fees deposit 13,agarcia,controller,11:42,Cash Receipts,Approved
+JE-1367,002,2025-08-12,2025-08-12,4410 Charges for Services,0,2033.97,Permit and service fees deposit 13,agarcia,finance.director,11:42,Cash Receipts,Approved
+JE-1171,001,2025-08-13,2025-08-13,5310 Contractual Services,12811.82,0,Vendor invoice 10394 - Contractual Services,mjohnson,controller,10:12,AP,Approved
+JE-1171,002,2025-08-13,2025-08-13,2010 Accounts Payable,0,12811.82,Vendor invoice 10394 - Contractual Services,mjohnson,finance.director,10:12,AP,Approved
+JE-1232,001,2025-08-13,2025-08-13,2010 Accounts Payable,13592.00,0,Check run 8281,mjohnson,finance.director,14:17,AP,Approved
+JE-1232,002,2025-08-13,2025-08-13,1010 Cash - Operating,0,13592.00,Check run 8281,mjohnson,controller,14:17,AP,Approved
+JE-1007,001,2025-08-15,2025-08-15,5010 Salaries and Wages,207413.97,0,Payroll period 4,agarcia,finance.director,08:59,Payroll,Approved
+JE-1007,002,2025-08-15,2025-08-15,1010 Cash - Operating,0,207413.97,Payroll period 4,agarcia,finance.director,08:59,Payroll,Approved
+JE-1008,001,2025-08-15,2025-08-15,5110 Employee Benefits,64298.33,0,Benefits accrual period 4,mjohnson,finance.director,09:53,Payroll,Approved
+JE-1008,002,2025-08-15,2025-08-15,2110 Accrued Payroll,0,64298.33,Benefits accrual period 4,mjohnson,finance.director,09:53,Payroll,Approved
+JE-1180,001,2025-08-15,2025-08-15,2010 Accounts Payable,249.79,0,Check run 7656,agarcia,controller,09:13,AP,Approved
+JE-1180,002,2025-08-15,2025-08-15,1010 Cash - Operating,0,249.79,Check run 7656,agarcia,controller,09:13,AP,Approved
+JE-1067,001,2025-08-18,2025-08-18,5410 Utilities,99.84,0,Vendor invoice 38944 - Utilities,tnguyen,finance.director,16:28,AP,Approved
+JE-1067,002,2025-08-18,2025-08-18,2010 Accounts Payable,0,99.84,Vendor invoice 38944 - Utilities,tnguyen,finance.director,16:28,AP,Approved
+JE-1129,001,2025-08-18,2025-08-18,5210 Supplies,2539.23,0,Vendor invoice 87959 - Supplies,agarcia,controller,17:35,AP,Approved
+JE-1129,002,2025-08-18,2025-08-18,2010 Accounts Payable,0,2539.23,Vendor invoice 87959 - Supplies,agarcia,finance.director,17:35,AP,Approved
+JE-1230,001,2025-08-18,2025-08-18,2010 Accounts Payable,145.63,0,Check run 5021,mjohnson,controller,14:16,AP,Approved
+JE-1230,002,2025-08-18,2025-08-18,1010 Cash - Operating,0,145.63,Check run 5021,mjohnson,finance.director,14:16,AP,Approved
+JE-1241,001,2025-08-18,2025-08-18,2010 Accounts Payable,799.29,0,Check run 6443,agarcia,finance.director,14:29,AP,Approved
+JE-1241,002,2025-08-18,2025-08-18,1010 Cash - Operating,0,799.29,Check run 6443,agarcia,finance.director,14:29,AP,Approved
+JE-1321,001,2025-08-18,2025-08-18,1010 Cash - Operating,67689.52,0,Property tax collections batch 39,tnguyen,finance.director,08:48,Cash Receipts,Approved
+JE-1321,002,2025-08-18,2025-08-18,1210 Taxes Receivable,0,67689.52,Property tax collections batch 39,tnguyen,controller,08:48,Cash Receipts,Approved
+JE-1055,001,2025-08-19,2025-08-19,5310 Contractual Services,97.32,0,Vendor invoice 12349 - Contractual Services,agarcia,finance.director,14:28,AP,Approved
+JE-1055,002,2025-08-19,2025-08-19,2010 Accounts Payable,0,97.32,Vendor invoice 12349 - Contractual Services,agarcia,finance.director,14:28,AP,Approved
+JE-1141,001,2025-08-19,2025-08-19,5410 Utilities,8043.46,0,Vendor invoice 12675 - Utilities,tnguyen,controller,09:53,AP,Approved
+JE-1141,002,2025-08-19,2025-08-19,2010 Accounts Payable,0,8043.46,Vendor invoice 12675 - Utilities,tnguyen,controller,09:53,AP,Approved
+JE-1286,001,2025-08-19,2025-08-19,1010 Cash - Operating,42863.82,0,Property tax collections batch 4,tnguyen,controller,11:58,Cash Receipts,Approved
+JE-1286,002,2025-08-19,2025-08-19,1210 Taxes Receivable,0,42863.82,Property tax collections batch 4,tnguyen,finance.director,11:58,Cash Receipts,Approved
+JE-1181,001,2025-08-20,2025-08-20,2010 Accounts Payable,4940.60,0,Check run 8336,agarcia,controller,12:58,AP,Approved
+JE-1181,002,2025-08-20,2025-08-20,1010 Cash - Operating,0,4940.60,Check run 8336,agarcia,finance.director,12:58,AP,Approved
+JE-1190,001,2025-08-20,2025-08-20,2010 Accounts Payable,992.39,0,Check run 7693,tnguyen,controller,17:22,AP,Approved
+JE-1190,002,2025-08-20,2025-08-20,1010 Cash - Operating,0,992.39,Check run 7693,tnguyen,controller,17:22,AP,Approved
+JE-1371,001,2025-08-20,2025-08-20,1010 Cash - Operating,447.46,0,Permit and service fees deposit 17,mjohnson,controller,15:43,Cash Receipts,Approved
+JE-1371,002,2025-08-20,2025-08-20,4410 Charges for Services,0,447.46,Permit and service fees deposit 17,mjohnson,controller,15:43,Cash Receipts,Approved
+JE-1080,001,2025-08-26,2025-08-26,5410 Utilities,45.23,0,Vendor invoice 36744 - Utilities,tnguyen,finance.director,17:55,AP,Approved
+JE-1080,002,2025-08-26,2025-08-26,2010 Accounts Payable,0,45.23,Vendor invoice 36744 - Utilities,tnguyen,controller,17:55,AP,Approved
+JE-1087,001,2025-08-26,2025-08-26,5310 Contractual Services,14593.38,0,Vendor invoice 64861 - Contractual Services,agarcia,controller,10:32,AP,Approved
+JE-1087,002,2025-08-26,2025-08-26,2010 Accounts Payable,0,14593.38,Vendor invoice 64861 - Contractual Services,agarcia,finance.director,10:32,AP,Approved
+JE-1151,001,2025-08-26,2025-08-26,5410 Utilities,315.32,0,Vendor invoice 44266 - Utilities,mjohnson,finance.director,15:02,AP,Approved
+JE-1151,002,2025-08-26,2025-08-26,2010 Accounts Payable,0,315.32,Vendor invoice 44266 - Utilities,mjohnson,controller,15:02,AP,Approved
+JE-1191,001,2025-08-27,2025-08-27,2010 Accounts Payable,6565.42,0,Check run 8680,agarcia,controller,08:00,AP,Approved
+JE-1191,002,2025-08-27,2025-08-27,1010 Cash - Operating,0,6565.42,Check run 8680,agarcia,controller,08:00,AP,Approved
+JE-1335,001,2025-08-28,2025-08-28,1010 Cash - Operating,145523.70,0,Property tax collections batch 53,mjohnson,finance.director,11:21,Cash Receipts,Approved
+JE-1335,002,2025-08-28,2025-08-28,1210 Taxes Receivable,0,145523.70,Property tax collections batch 53,mjohnson,finance.director,11:21,Cash Receipts,Approved
+JE-1342,001,2025-08-28,2025-08-28,1010 Cash - Operating,20566.30,0,Property tax collections batch 60,agarcia,controller,12:13,Cash Receipts,Approved
+JE-1342,002,2025-08-28,2025-08-28,1210 Taxes Receivable,0,20566.30,Property tax collections batch 60,agarcia,finance.director,12:13,Cash Receipts,Approved
+JE-1009,001,2025-08-29,2025-08-29,5010 Salaries and Wages,190802.91,0,Payroll period 5,mjohnson,controller,08:24,Payroll,Approved
+JE-1009,002,2025-08-29,2025-08-29,1010 Cash - Operating,0,190802.91,Payroll period 5,mjohnson,finance.director,08:24,Payroll,Approved
+JE-1010,001,2025-08-29,2025-08-29,5110 Employee Benefits,59148.90,0,Benefits accrual period 5,tnguyen,finance.director,08:08,Payroll,Approved
+JE-1010,002,2025-08-29,2025-08-29,2110 Accrued Payroll,0,59148.90,Benefits accrual period 5,tnguyen,controller,08:08,Payroll,Approved
+JE-1202,001,2025-08-29,2025-08-29,2010 Accounts Payable,161.96,0,Check run 6763,agarcia,finance.director,12:21,AP,Approved
+JE-1202,002,2025-08-29,2025-08-29,1010 Cash - Operating,0,161.96,Check run 6763,agarcia,controller,12:21,AP,Approved
+JE-1200,001,2025-09-01,2025-09-01,2010 Accounts Payable,77.35,0,Check run 9898,tnguyen,controller,13:54,AP,Approved
+JE-1200,002,2025-09-01,2025-09-01,1010 Cash - Operating,0,77.35,Check run 9898,tnguyen,controller,13:54,AP,Approved
+JE-1345,001,2025-09-01,2025-09-01,1210 Taxes Receivable,402621.61,0,Property tax levy recognition month 3,mjohnson,finance.director,11:58,GL,Approved
+JE-1345,002,2025-09-01,2025-09-01,4010 Property Tax Revenue,0,402621.61,Property tax levy recognition month 3,mjohnson,finance.director,11:58,GL,Approved
+JE-1375,001,2025-09-01,2025-09-01,1010 Cash - Operating,1360.56,0,Permit and service fees deposit 21,agarcia,finance.director,16:26,Cash Receipts,Approved
+JE-1375,002,2025-09-01,2025-09-01,4410 Charges for Services,0,1360.56,Permit and service fees deposit 21,agarcia,controller,16:26,Cash Receipts,Approved
+JE-1133,001,2025-09-02,2025-09-02,5410 Utilities,14645.77,0,Vendor invoice 51004 - Utilities,agarcia,controller,12:17,AP,Approved
+JE-1133,002,2025-09-02,2025-09-02,2010 Accounts Payable,0,14645.77,Vendor invoice 51004 - Utilities,agarcia,finance.director,12:17,AP,Approved
+JE-1333,001,2025-09-02,2025-09-02,1010 Cash - Operating,58761.80,0,Property tax collections batch 51,tnguyen,controller,08:15,Cash Receipts,Approved
+JE-1333,002,2025-09-02,2025-09-02,1210 Taxes Receivable,0,58761.80,Property tax collections batch 51,tnguyen,finance.director,08:15,Cash Receipts,Approved
+JE-1329,001,2025-09-03,2025-09-03,1010 Cash - Operating,35964.04,0,Property tax collections batch 47,tnguyen,controller,11:31,Cash Receipts,Approved
+JE-1329,002,2025-09-03,2025-09-03,1210 Taxes Receivable,0,35964.04,Property tax collections batch 47,tnguyen,finance.director,11:31,Cash Receipts,Approved
+JE-1399,001,2025-09-04,2025-09-04,5810 Capital Outlay,61311.87,0,Street improvement contractor pay app 1,tnguyen,finance.director,09:38,AP,Approved
+JE-1399,002,2025-09-04,2025-09-04,2010 Accounts Payable,0,61311.87,Street improvement contractor pay app 1,tnguyen,controller,09:38,AP,Approved
+JE-1242,001,2025-09-05,2025-09-05,2010 Accounts Payable,6419.32,0,Check run 6184,mjohnson,finance.director,09:44,AP,Approved
+JE-1242,002,2025-09-05,2025-09-05,1010 Cash - Operating,0,6419.32,Check run 6184,mjohnson,controller,09:44,AP,Approved
+JE-1293,001,2025-09-05,2025-09-05,1010 Cash - Operating,73875.30,0,Property tax collections batch 11,agarcia,controller,16:53,Cash Receipts,Approved
+JE-1293,002,2025-09-05,2025-09-05,1210 Taxes Receivable,0,73875.30,Property tax collections batch 11,agarcia,controller,16:53,Cash Receipts,Approved
+JE-1376,001,2025-09-05,2025-09-05,1010 Cash - Operating,2976.48,0,Permit and service fees deposit 22,mjohnson,finance.director,16:21,Cash Receipts,Approved
+JE-1376,002,2025-09-05,2025-09-05,4410 Charges for Services,0,2976.48,Permit and service fees deposit 22,mjohnson,controller,16:21,Cash Receipts,Approved
+JE-1147,001,2025-09-10,2025-09-10,5410 Utilities,218.53,0,Vendor invoice 54786 - Utilities,agarcia,controller,14:44,AP,Approved
+JE-1147,002,2025-09-10,2025-09-10,2010 Accounts Payable,0,218.53,Vendor invoice 54786 - Utilities,agarcia,controller,14:44,AP,Approved
+JE-1311,001,2025-09-10,2025-09-10,1010 Cash - Operating,131340.01,0,Property tax collections batch 29,agarcia,controller,16:15,Cash Receipts,Approved
+JE-1311,002,2025-09-10,2025-09-10,1210 Taxes Receivable,0,131340.01,Property tax collections batch 29,agarcia,controller,16:15,Cash Receipts,Approved
+JE-1313,001,2025-09-10,2025-09-10,1010 Cash - Operating,125639.02,0,Property tax collections batch 31,mjohnson,controller,14:21,Cash Receipts,Approved
+JE-1313,002,2025-09-10,2025-09-10,1210 Taxes Receivable,0,125639.02,Property tax collections batch 31,mjohnson,finance.director,14:21,Cash Receipts,Approved
+JE-1011,001,2025-09-12,2025-09-12,5010 Salaries and Wages,201488.30,0,Payroll period 6,mjohnson,controller,13:36,Payroll,Approved
+JE-1011,002,2025-09-12,2025-09-12,1010 Cash - Operating,0,201488.30,Payroll period 6,mjohnson,finance.director,13:36,Payroll,Approved
+JE-1012,001,2025-09-12,2025-09-12,5110 Employee Benefits,62461.37,0,Benefits accrual period 6,mjohnson,finance.director,09:05,Payroll,Approved
+JE-1012,002,2025-09-12,2025-09-12,2110 Accrued Payroll,0,62461.37,Benefits accrual period 6,mjohnson,controller,09:05,Payroll,Approved
+JE-1164,001,2025-09-12,2025-09-12,5310 Contractual Services,1648.06,0,Vendor invoice 18831 - Contractual Services,tnguyen,finance.director,12:35,AP,Approved
+JE-1164,002,2025-09-12,2025-09-12,2010 Accounts Payable,0,1648.06,Vendor invoice 18831 - Contractual Services,tnguyen,controller,12:35,AP,Approved
+JE-1123,001,2025-09-15,2025-09-15,5210 Supplies,280.47,0,Vendor invoice 81246 - Supplies,tnguyen,controller,16:30,AP,Approved
+JE-1123,002,2025-09-15,2025-09-15,2010 Accounts Payable,0,280.47,Vendor invoice 81246 - Supplies,tnguyen,finance.director,16:30,AP,Approved
+JE-1248,001,2025-09-15,2025-09-15,2010 Accounts Payable,13413.07,0,Check run 7620,tnguyen,finance.director,14:51,AP,Approved
+JE-1248,002,2025-09-15,2025-09-15,1010 Cash - Operating,0,13413.07,Check run 7620,tnguyen,controller,14:51,AP,Approved
+JE-1395,001,2025-09-15,2025-09-15,1010 Cash - Operating,100981.29,0,State grant reimbursement Q1,tnguyen,finance.director,15:41,Cash Receipts,Approved
+JE-1395,002,2025-09-15,2025-09-15,4310 Intergovernmental Grants,0,100981.29,State grant reimbursement Q1,tnguyen,finance.director,15:41,Cash Receipts,Approved
+JE-1120,001,2025-09-16,2025-09-16,5310 Contractual Services,41.34,0,Vendor invoice 97122 - Contractual Services,mjohnson,finance.director,16:35,AP,Approved
+JE-1120,002,2025-09-16,2025-09-16,2010 Accounts Payable,0,41.34,Vendor invoice 97122 - Contractual Services,mjohnson,finance.director,16:35,AP,Approved
+JE-1279,001,2025-09-16,2025-09-16,2010 Accounts Payable,65.43,0,Check run 6516,tnguyen,controller,14:19,AP,Approved
+JE-1279,002,2025-09-16,2025-09-16,1010 Cash - Operating,0,65.43,Check run 6516,tnguyen,finance.director,14:19,AP,Approved
+JE-1252,001,2025-09-19,2025-09-19,2010 Accounts Payable,123.45,0,Check run 6461,agarcia,controller,16:53,AP,Approved
+JE-1252,002,2025-09-19,2025-09-19,1010 Cash - Operating,0,123.45,Check run 6461,agarcia,finance.director,16:53,AP,Approved
+JE-1228,001,2025-09-23,2025-09-23,2010 Accounts Payable,6244.82,0,Check run 6457,tnguyen,finance.director,09:27,AP,Approved
+JE-1228,002,2025-09-23,2025-09-23,1010 Cash - Operating,0,6244.82,Check run 6457,tnguyen,finance.director,09:27,AP,Approved
+JE-1094,001,2025-09-25,2025-09-25,5310 Contractual Services,280.14,0,Vendor invoice 91239 - Contractual Services,tnguyen,finance.director,11:30,AP,Approved
+JE-1094,002,2025-09-25,2025-09-25,2010 Accounts Payable,0,280.14,Vendor invoice 91239 - Contractual Services,tnguyen,finance.director,11:30,AP,Approved
+JE-1199,001,2025-09-25,2025-09-25,2010 Accounts Payable,2144.55,0,Check run 5965,agarcia,controller,10:41,AP,Approved
+JE-1199,002,2025-09-25,2025-09-25,1010 Cash - Operating,0,2144.55,Check run 5965,agarcia,controller,10:41,AP,Approved
+JE-1013,001,2025-09-26,2025-09-26,5010 Salaries and Wages,187362.94,0,Payroll period 7,agarcia,finance.director,14:07,Payroll,Approved
+JE-1013,002,2025-09-26,2025-09-26,1010 Cash - Operating,0,187362.94,Payroll period 7,agarcia,controller,14:07,Payroll,Approved
+JE-1014,001,2025-09-26,2025-09-26,5110 Employee Benefits,58082.51,0,Benefits accrual period 7,tnguyen,controller,10:49,Payroll,Approved
+JE-1014,002,2025-09-26,2025-09-26,2110 Accrued Payroll,0,58082.51,Benefits accrual period 7,tnguyen,controller,10:49,Payroll,Approved
+JE-1203,001,2025-09-26,2025-09-26,2010 Accounts Payable,2836.07,0,Check run 9425,agarcia,controller,08:26,AP,Approved
+JE-1203,002,2025-09-26,2025-09-26,1010 Cash - Operating,0,2836.07,Check run 9425,agarcia,finance.director,08:26,AP,Approved
+JE-1118,001,2025-09-29,2025-09-29,5410 Utilities,1726.48,0,Vendor invoice 58981 - Utilities,agarcia,finance.director,10:52,AP,Approved
+JE-1118,002,2025-09-29,2025-09-29,2010 Accounts Payable,0,1726.48,Vendor invoice 58981 - Utilities,agarcia,finance.director,10:52,AP,Approved
+JE-1223,001,2025-09-29,2025-09-29,2010 Accounts Payable,4747.39,0,Check run 6049,tnguyen,controller,17:36,AP,Approved
+JE-1223,002,2025-09-29,2025-09-29,1010 Cash - Operating,0,4747.39,Check run 6049,tnguyen,controller,17:36,AP,Approved
+JE-1122,001,2025-10-01,2025-10-01,5210 Supplies,227.09,0,Vendor invoice 42012 - Supplies,mjohnson,finance.director,10:55,AP,Approved
+JE-1122,002,2025-10-01,2025-10-01,2010 Accounts Payable,0,227.09,Vendor invoice 42012 - Supplies,mjohnson,controller,10:55,AP,Approved
+JE-1295,001,2025-10-01,2025-10-01,1010 Cash - Operating,73073.50,0,Property tax collections batch 13,mjohnson,controller,09:10,Cash Receipts,Approved
+JE-1295,002,2025-10-01,2025-10-01,1210 Taxes Receivable,0,73073.50,Property tax collections batch 13,mjohnson,finance.director,09:10,Cash Receipts,Approved
+JE-1346,001,2025-10-01,2025-10-01,1210 Taxes Receivable,499408.56,0,Property tax levy recognition month 4,tnguyen,finance.director,17:19,GL,Approved
+JE-1346,002,2025-10-01,2025-10-01,4010 Property Tax Revenue,0,499408.56,Property tax levy recognition month 4,tnguyen,controller,17:19,GL,Approved
+JE-1064,001,2025-10-03,2025-10-03,5410 Utilities,153.70,0,Vendor invoice 26504 - Utilities,mjohnson,finance.director,13:38,AP,Approved
+JE-1064,002,2025-10-03,2025-10-03,2010 Accounts Payable,0,153.70,Vendor invoice 26504 - Utilities,mjohnson,controller,13:38,AP,Approved
+JE-1079,001,2025-10-06,2025-10-06,5210 Supplies,1282.00,0,Vendor invoice 13402 - Supplies,agarcia,finance.director,11:23,AP,Approved
+JE-1079,002,2025-10-06,2025-10-06,2010 Accounts Payable,0,1282.00,Vendor invoice 13402 - Supplies,agarcia,finance.director,11:23,AP,Approved
+JE-1056,001,2025-10-08,2025-10-08,5310 Contractual Services,1413.19,0,Vendor invoice 32640 - Contractual Services,mjohnson,finance.director,14:07,AP,Approved
+JE-1056,002,2025-10-08,2025-10-08,2010 Accounts Payable,0,1413.19,Vendor invoice 32640 - Contractual Services,mjohnson,controller,14:07,AP,Approved
+JE-1392,001,2025-10-08,2025-10-08,1010 Cash - Operating,1137.41,0,Permit and service fees deposit 38,mjohnson,finance.director,10:32,Cash Receipts,Approved
+JE-1392,002,2025-10-08,2025-10-08,4410 Charges for Services,0,1137.41,Permit and service fees deposit 38,mjohnson,finance.director,10:32,Cash Receipts,Approved
+JE-1381,001,2025-10-09,2025-10-09,1010 Cash - Operating,4389.46,0,Permit and service fees deposit 27,agarcia,controller,10:07,Cash Receipts,Approved
+JE-1381,002,2025-10-09,2025-10-09,4410 Charges for Services,0,4389.46,Permit and service fees deposit 27,agarcia,controller,10:07,Cash Receipts,Approved
+JE-1015,001,2025-10-10,2025-10-10,5010 Salaries and Wages,194995.00,0,Payroll period 8,tnguyen,finance.director,12:05,Payroll,Approved
+JE-1015,002,2025-10-10,2025-10-10,1010 Cash - Operating,0,194995.00,Payroll period 8,tnguyen,finance.director,12:05,Payroll,Approved
+JE-1016,001,2025-10-10,2025-10-10,5110 Employee Benefits,60448.45,0,Benefits accrual period 8,mjohnson,finance.director,08:11,Payroll,Approved
+JE-1016,002,2025-10-10,2025-10-10,2110 Accrued Payroll,0,60448.45,Benefits accrual period 8,mjohnson,controller,08:11,Payroll,Approved
+JE-1097,001,2025-10-13,2025-10-13,5310 Contractual Services,6715.88,0,Vendor invoice 31843 - Contractual Services,agarcia,controller,10:24,AP,Approved
+JE-1097,002,2025-10-13,2025-10-13,2010 Accounts Payable,0,6715.88,Vendor invoice 31843 - Contractual Services,agarcia,controller,10:24,AP,Approved
+JE-1219,001,2025-10-13,2025-10-13,2010 Accounts Payable,1716.50,0,Check run 5611,mjohnson,controller,09:54,AP,Approved
+JE-1219,002,2025-10-13,2025-10-13,1010 Cash - Operating,0,1716.50,Check run 5611,mjohnson,controller,09:54,AP,Approved
+JE-1077,001,2025-10-14,2025-10-14,5310 Contractual Services,17781.79,0,Vendor invoice 96245 - Contractual Services,agarcia,finance.director,17:55,AP,Approved
+JE-1077,002,2025-10-14,2025-10-14,2010 Accounts Payable,0,17781.79,Vendor invoice 96245 - Contractual Services,agarcia,controller,17:55,AP,Approved
+JE-1282,001,2025-10-14,2025-10-14,2010 Accounts Payable,100.81,0,Check run 8508,tnguyen,finance.director,16:19,AP,Approved
+JE-1282,002,2025-10-14,2025-10-14,1010 Cash - Operating,0,100.81,Check run 8508,tnguyen,finance.director,16:19,AP,Approved
+JE-1316,001,2025-10-14,2025-10-14,1010 Cash - Operating,89672.92,0,Property tax collections batch 34,mjohnson,controller,17:24,Cash Receipts,Approved
+JE-1316,002,2025-10-14,2025-10-14,1210 Taxes Receivable,0,89672.92,Property tax collections batch 34,mjohnson,controller,17:24,Cash Receipts,Approved
+JE-1338,001,2025-10-14,2025-10-14,1010 Cash - Operating,48528.10,0,Property tax collections batch 56,agarcia,controller,14:49,Cash Receipts,Approved
+JE-1338,002,2025-10-14,2025-10-14,1210 Taxes Receivable,0,48528.10,Property tax collections batch 56,agarcia,finance.director,14:49,Cash Receipts,Approved
+JE-1091,001,2025-10-15,2025-10-15,5310 Contractual Services,41.37,0,Vendor invoice 75554 - Contractual Services,tnguyen,finance.director,08:41,AP,Approved
+JE-1091,002,2025-10-15,2025-10-15,2010 Accounts Payable,0,41.37,Vendor invoice 75554 - Contractual Services,tnguyen,controller,08:41,AP,Approved
+JE-1098,001,2025-10-17,2025-10-17,5310 Contractual Services,1186.69,0,Vendor invoice 56907 - Contractual Services,mjohnson,controller,11:51,AP,Approved
+JE-1098,002,2025-10-17,2025-10-17,2010 Accounts Payable,0,1186.69,Vendor invoice 56907 - Contractual Services,mjohnson,controller,11:51,AP,Approved
+JE-1211,001,2025-10-20,2025-10-20,2010 Accounts Payable,79.43,0,Check run 6450,tnguyen,controller,10:39,AP,Approved
+JE-1211,002,2025-10-20,2025-10-20,1010 Cash - Operating,0,79.43,Check run 6450,tnguyen,controller,10:39,AP,Approved
+JE-1327,001,2025-10-20,2025-10-20,1010 Cash - Operating,170729.96,0,Property tax collections batch 45,mjohnson,controller,14:30,Cash Receipts,Approved
+JE-1327,002,2025-10-20,2025-10-20,1210 Taxes Receivable,0,170729.96,Property tax collections batch 45,mjohnson,controller,14:30,Cash Receipts,Approved
+JE-1280,001,2025-10-21,2025-10-21,2010 Accounts Payable,689.88,0,Check run 7373,tnguyen,finance.director,08:55,AP,Approved
+JE-1280,002,2025-10-21,2025-10-21,1010 Cash - Operating,0,689.88,Check run 7373,tnguyen,controller,08:55,AP,Approved
+JE-1359,001,2025-10-21,2025-10-21,1010 Cash - Operating,569.03,0,Permit and service fees deposit 5,agarcia,controller,08:48,Cash Receipts,Approved
+JE-1359,002,2025-10-21,2025-10-21,4410 Charges for Services,0,569.03,Permit and service fees deposit 5,agarcia,controller,08:48,Cash Receipts,Approved
+JE-1377,001,2025-10-21,2025-10-21,1010 Cash - Operating,1985.85,0,Permit and service fees deposit 23,agarcia,controller,13:00,Cash Receipts,Approved
+JE-1377,002,2025-10-21,2025-10-21,4410 Charges for Services,0,1985.85,Permit and service fees deposit 23,agarcia,controller,13:00,Cash Receipts,Approved
+JE-1170,001,2025-10-22,2025-10-22,5310 Contractual Services,1319.65,0,Vendor invoice 26827 - Contractual Services,tnguyen,finance.director,14:49,AP,Approved
+JE-1170,002,2025-10-22,2025-10-22,2010 Accounts Payable,0,1319.65,Vendor invoice 26827 - Contractual Services,tnguyen,controller,14:49,AP,Approved
+JE-1063,001,2025-10-23,2025-10-23,5210 Supplies,2336.40,0,Vendor invoice 33059 - Supplies,mjohnson,controller,08:07,AP,Approved
+JE-1063,002,2025-10-23,2025-10-23,2010 Accounts Payable,0,2336.40,Vendor invoice 33059 - Supplies,mjohnson,controller,08:07,AP,Approved
+JE-1017,001,2025-10-24,2025-10-24,5010 Salaries and Wages,208869.09,0,Payroll period 9,agarcia,controller,09:06,Payroll,Approved
+JE-1017,002,2025-10-24,2025-10-24,1010 Cash - Operating,0,208869.09,Payroll period 9,agarcia,controller,09:06,Payroll,Approved
+JE-1018,001,2025-10-24,2025-10-24,5110 Employee Benefits,64749.42,0,Benefits accrual period 9,tnguyen,finance.director,09:10,Payroll,Approved
+JE-1018,002,2025-10-24,2025-10-24,2110 Accrued Payroll,0,64749.42,Benefits accrual period 9,tnguyen,finance.director,09:10,Payroll,Approved
+JE-1325,001,2025-10-28,2025-10-28,1010 Cash - Operating,79238.12,0,Property tax collections batch 43,mjohnson,finance.director,12:19,Cash Receipts,Approved
+JE-1325,002,2025-10-28,2025-10-28,1210 Taxes Receivable,0,79238.12,Property tax collections batch 43,mjohnson,controller,12:19,Cash Receipts,Approved
+JE-1103,001,2025-10-29,2025-10-29,5310 Contractual Services,42.01,0,Vendor invoice 61696 - Contractual Services,agarcia,controller,10:01,AP,Approved
+JE-1103,002,2025-10-29,2025-10-29,2010 Accounts Payable,0,42.01,Vendor invoice 61696 - Contractual Services,agarcia,finance.director,10:01,AP,Approved
+JE-1119,001,2025-10-29,2025-10-29,5310 Contractual Services,495.67,0,Vendor invoice 77398 - Contractual Services,tnguyen,controller,10:56,AP,Approved
+JE-1119,002,2025-10-29,2025-10-29,2010 Accounts Payable,0,495.67,Vendor invoice 77398 - Contractual Services,tnguyen,controller,10:56,AP,Approved
+JE-1264,001,2025-10-29,2025-10-29,2010 Accounts Payable,3097.67,0,Check run 7010,tnguyen,controller,13:35,AP,Approved
+JE-1264,002,2025-10-29,2025-10-29,1010 Cash - Operating,0,3097.67,Check run 7010,tnguyen,controller,13:35,AP,Approved
+JE-1347,001,2025-11-01,2025-11-01,1210 Taxes Receivable,420233.18,0,Property tax levy recognition month 5,tnguyen,finance.director,14:18,GL,Approved
+JE-1347,002,2025-11-01,2025-11-01,4010 Property Tax Revenue,0,420233.18,Property tax levy recognition month 5,tnguyen,finance.director,14:18,GL,Approved
+JE-1197,001,2025-11-03,2025-11-03,2010 Accounts Payable,913.92,0,Check run 9255,mjohnson,finance.director,13:37,AP,Approved
+JE-1197,002,2025-11-03,2025-11-03,1010 Cash - Operating,0,913.92,Check run 9255,mjohnson,finance.director,13:37,AP,Approved
+JE-1303,001,2025-11-04,2025-11-04,1010 Cash - Operating,218740.33,0,Property tax collections batch 21,mjohnson,finance.director,13:26,Cash Receipts,Approved
+JE-1303,002,2025-11-04,2025-11-04,1210 Taxes Receivable,0,218740.33,Property tax collections batch 21,mjohnson,controller,13:26,Cash Receipts,Approved
+JE-1358,001,2025-11-04,2025-11-04,1010 Cash - Operating,2773.36,0,Permit and service fees deposit 4,mjohnson,controller,17:28,Cash Receipts,Approved
+JE-1358,002,2025-11-04,2025-11-04,4410 Charges for Services,0,2773.36,Permit and service fees deposit 4,mjohnson,finance.director,17:28,Cash Receipts,Approved
+JE-1073,001,2025-11-05,2025-11-05,5410 Utilities,54.72,0,Vendor invoice 33378 - Utilities,mjohnson,controller,10:24,AP,Approved
+JE-1073,002,2025-11-05,2025-11-05,2010 Accounts Payable,0,54.72,Vendor invoice 33378 - Utilities,mjohnson,finance.director,10:24,AP,Approved
+JE-1309,001,2025-11-05,2025-11-05,1010 Cash - Operating,60854.32,0,Property tax collections batch 27,mjohnson,controller,08:31,Cash Receipts,Approved
+JE-1309,002,2025-11-05,2025-11-05,1210 Taxes Receivable,0,60854.32,Property tax collections batch 27,mjohnson,controller,08:31,Cash Receipts,Approved
+JE-1374,001,2025-11-05,2025-11-05,1010 Cash - Operating,907.80,0,Permit and service fees deposit 20,agarcia,finance.director,15:17,Cash Receipts,Approved
+JE-1374,002,2025-11-05,2025-11-05,4410 Charges for Services,0,907.80,Permit and service fees deposit 20,agarcia,controller,15:17,Cash Receipts,Approved
+JE-1054,001,2025-11-06,2025-11-06,5310 Contractual Services,782.56,0,Vendor invoice 98161 - Contractual Services,tnguyen,controller,10:23,AP,Approved
+JE-1054,002,2025-11-06,2025-11-06,2010 Accounts Payable,0,782.56,Vendor invoice 98161 - Contractual Services,tnguyen,finance.director,10:23,AP,Approved
+JE-1215,001,2025-11-06,2025-11-06,2010 Accounts Payable,142.87,0,Check run 8821,tnguyen,finance.director,13:49,AP,Approved
+JE-1215,002,2025-11-06,2025-11-06,1010 Cash - Operating,0,142.87,Check run 8821,tnguyen,controller,13:49,AP,Approved
+JE-1225,001,2025-11-06,2025-11-06,2010 Accounts Payable,1118.17,0,Check run 6281,tnguyen,finance.director,10:10,AP,Approved
+JE-1225,002,2025-11-06,2025-11-06,1010 Cash - Operating,0,1118.17,Check run 6281,tnguyen,finance.director,10:10,AP,Approved
+JE-1402,001,2025-11-06,2025-11-06,5810 Capital Outlay,49256.72,0,Street improvement contractor pay app 4,tnguyen,controller,08:48,AP,Approved
+JE-1402,002,2025-11-06,2025-11-06,2010 Accounts Payable,0,49256.72,Street improvement contractor pay app 4,tnguyen,finance.director,08:48,AP,Approved
+JE-1019,001,2025-11-07,2025-11-07,5010 Salaries and Wages,180004.03,0,Payroll period 10,mjohnson,controller,14:53,Payroll,Approved
+JE-1019,002,2025-11-07,2025-11-07,1010 Cash - Operating,0,180004.03,Payroll period 10,mjohnson,controller,14:53,Payroll,Approved
+JE-1020,001,2025-11-07,2025-11-07,5110 Employee Benefits,55801.25,0,Benefits accrual period 10,tnguyen,controller,12:49,Payroll,Approved
+JE-1020,002,2025-11-07,2025-11-07,2110 Accrued Payroll,0,55801.25,Benefits accrual period 10,tnguyen,finance.director,12:49,Payroll,Approved
+JE-1176,001,2025-11-07,2025-11-07,2010 Accounts Payable,473.89,0,Check run 5319,mjohnson,controller,14:01,AP,Approved
+JE-1176,002,2025-11-07,2025-11-07,1010 Cash - Operating,0,473.89,Check run 5319,mjohnson,controller,14:01,AP,Approved
+JE-1100,001,2025-11-10,2025-11-10,5310 Contractual Services,107.92,0,Vendor invoice 11205 - Contractual Services,agarcia,finance.director,16:59,AP,Approved
+JE-1100,002,2025-11-10,2025-11-10,2010 Accounts Payable,0,107.92,Vendor invoice 11205 - Contractual Services,agarcia,finance.director,16:59,AP,Approved
+JE-1111,001,2025-11-11,2025-11-11,5410 Utilities,854.10,0,Vendor invoice 85338 - Utilities,agarcia,finance.director,11:21,AP,Approved
+JE-1111,002,2025-11-11,2025-11-11,2010 Accounts Payable,0,854.10,Vendor invoice 85338 - Utilities,agarcia,finance.director,11:21,AP,Approved
+JE-1189,001,2025-11-11,2025-11-11,2010 Accounts Payable,11234.79,0,Check run 5345,tnguyen,finance.director,15:19,AP,Approved
+JE-1189,002,2025-11-11,2025-11-11,1010 Cash - Operating,0,11234.79,Check run 5345,tnguyen,finance.director,15:19,AP,Approved
+JE-1267,001,2025-11-11,2025-11-11,2010 Accounts Payable,71.51,0,Check run 7776,tnguyen,controller,09:14,AP,Approved
+JE-1267,002,2025-11-11,2025-11-11,1010 Cash - Operating,0,71.51,Check run 7776,tnguyen,finance.director,09:14,AP,Approved
+JE-1160,001,2025-11-12,2025-11-12,5310 Contractual Services,2421.66,0,Vendor invoice 15133 - Contractual Services,mjohnson,controller,10:44,AP,Approved
+JE-1160,002,2025-11-12,2025-11-12,2010 Accounts Payable,0,2421.66,Vendor invoice 15133 - Contractual Services,mjohnson,controller,10:44,AP,Approved
+JE-1088,001,2025-11-14,2025-11-14,5310 Contractual Services,2186.34,0,Vendor invoice 14577 - Contractual Services,mjohnson,finance.director,09:17,AP,Approved
+JE-1088,002,2025-11-14,2025-11-14,2010 Accounts Payable,0,2186.34,Vendor invoice 14577 - Contractual Services,mjohnson,controller,09:17,AP,Approved
+JE-1255,001,2025-11-14,2025-11-14,2010 Accounts Payable,50.59,0,Check run 7217,tnguyen,controller,15:31,AP,Approved
+JE-1255,002,2025-11-14,2025-11-14,1010 Cash - Operating,0,50.59,Check run 7217,tnguyen,controller,15:31,AP,Approved
+JE-1289,001,2025-11-14,2025-11-14,1010 Cash - Operating,204932.24,0,Property tax collections batch 7,agarcia,controller,12:01,Cash Receipts,Approved
+JE-1289,002,2025-11-14,2025-11-14,1210 Taxes Receivable,0,204932.24,Property tax collections batch 7,agarcia,finance.director,12:01,Cash Receipts,Approved
+JE-1408,001,2025-11-15,2025-11-15,5210 Supplies,12400.00,0,Office furniture,mjohnson,finance.director,10:05,AP,Approved
+JE-1408,002,2025-11-15,2025-11-15,1010 Cash - Operating,0,12400.00,Office furniture,mjohnson,controller,10:05,AP,Approved
+JE-1270,001,2025-11-17,2025-11-17,2010 Accounts Payable,519.84,0,Check run 6128,agarcia,controller,08:56,AP,Approved
+JE-1270,002,2025-11-17,2025-11-17,1010 Cash - Operating,0,519.84,Check run 6128,agarcia,finance.director,08:56,AP,Approved
+JE-1154,001,2025-11-19,2025-11-19,5210 Supplies,16889.17,0,Vendor invoice 60429 - Supplies,agarcia,finance.director,14:36,AP,Approved
+JE-1154,002,2025-11-19,2025-11-19,2010 Accounts Payable,0,16889.17,Vendor invoice 60429 - Supplies,agarcia,finance.director,14:36,AP,Approved
+JE-1209,001,2025-11-19,2025-11-19,2010 Accounts Payable,78.22,0,Check run 9129,mjohnson,finance.director,17:05,AP,Approved
+JE-1209,002,2025-11-19,2025-11-19,1010 Cash - Operating,0,78.22,Check run 9129,mjohnson,controller,17:05,AP,Approved
+JE-1021,001,2025-11-21,2025-11-21,5010 Salaries and Wages,194772.04,0,Payroll period 11,tnguyen,finance.director,16:33,Payroll,Approved
+JE-1021,002,2025-11-21,2025-11-21,1010 Cash - Operating,0,194772.04,Payroll period 11,tnguyen,finance.director,16:33,Payroll,Approved
+JE-1022,001,2025-11-21,2025-11-21,5110 Employee Benefits,60379.33,0,Benefits accrual period 11,mjohnson,finance.director,14:30,Payroll,Approved
+JE-1022,002,2025-11-21,2025-11-21,2110 Accrued Payroll,0,60379.33,Benefits accrual period 11,mjohnson,controller,14:30,Payroll,Approved
+JE-1140,001,2025-11-21,2025-11-21,5210 Supplies,10503.08,0,Vendor invoice 18726 - Supplies,agarcia,controller,14:24,AP,Approved
+JE-1140,002,2025-11-21,2025-11-21,2010 Accounts Payable,0,10503.08,Vendor invoice 18726 - Supplies,agarcia,controller,14:24,AP,Approved
+JE-1161,001,2025-11-21,2025-11-21,5310 Contractual Services,84.14,0,Vendor invoice 20305 - Contractual Services,tnguyen,finance.director,08:06,AP,Approved
+JE-1161,002,2025-11-21,2025-11-21,2010 Accounts Payable,0,84.14,Vendor invoice 20305 - Contractual Services,tnguyen,finance.director,08:06,AP,Approved
+JE-1273,001,2025-11-21,2025-11-21,2010 Accounts Payable,373.58,0,Check run 6754,mjohnson,controller,12:09,AP,Approved
+JE-1273,002,2025-11-21,2025-11-21,1010 Cash - Operating,0,373.58,Check run 6754,mjohnson,finance.director,12:09,AP,Approved
+JE-1314,001,2025-11-25,2025-11-25,1010 Cash - Operating,52751.11,0,Property tax collections batch 32,agarcia,controller,10:46,Cash Receipts,Approved
+JE-1314,002,2025-11-25,2025-11-25,1210 Taxes Receivable,0,52751.11,Property tax collections batch 32,agarcia,controller,10:46,Cash Receipts,Approved
+JE-1158,001,2025-11-27,2025-11-27,5210 Supplies,173.00,0,Vendor invoice 91789 - Supplies,mjohnson,controller,12:53,AP,Approved
+JE-1158,002,2025-11-27,2025-11-27,2010 Accounts Payable,0,173.00,Vendor invoice 91789 - Supplies,mjohnson,finance.director,12:53,AP,Approved
+JE-1107,001,2025-11-28,2025-11-28,5310 Contractual Services,40.15,0,Vendor invoice 21876 - Contractual Services,mjohnson,controller,14:41,AP,Approved
+JE-1107,002,2025-11-28,2025-11-28,2010 Accounts Payable,0,40.15,Vendor invoice 21876 - Contractual Services,mjohnson,finance.director,14:41,AP,Approved
+JE-1143,001,2025-11-28,2025-11-28,5410 Utilities,54.86,0,Vendor invoice 67325 - Utilities,agarcia,controller,09:19,AP,Approved
+JE-1143,002,2025-11-28,2025-11-28,2010 Accounts Payable,0,54.86,Vendor invoice 67325 - Utilities,agarcia,controller,09:19,AP,Approved
+JE-1198,001,2025-11-28,2025-11-28,2010 Accounts Payable,4454.82,0,Check run 8665,tnguyen,controller,14:13,AP,Approved
+JE-1198,002,2025-11-28,2025-11-28,1010 Cash - Operating,0,4454.82,Check run 8665,tnguyen,finance.director,14:13,AP,Approved
+JE-1245,001,2025-11-28,2025-11-28,2010 Accounts Payable,2521.42,0,Check run 6761,mjohnson,finance.director,11:28,AP,Approved
+JE-1245,002,2025-11-28,2025-11-28,1010 Cash - Operating,0,2521.42,Check run 6761,mjohnson,controller,11:28,AP,Approved
+JE-1076,001,2025-12-01,2025-12-01,5410 Utilities,426.02,0,Vendor invoice 39417 - Utilities,mjohnson,controller,17:53,AP,Approved
+JE-1076,002,2025-12-01,2025-12-01,2010 Accounts Payable,0,426.02,Vendor invoice 39417 - Utilities,mjohnson,finance.director,17:53,AP,Approved
+JE-1196,001,2025-12-01,2025-12-01,2010 Accounts Payable,749.43,0,Check run 5305,agarcia,finance.director,12:04,AP,Approved
+JE-1196,002,2025-12-01,2025-12-01,1010 Cash - Operating,0,749.43,Check run 5305,agarcia,finance.director,12:04,AP,Approved
+JE-1348,001,2025-12-01,2025-12-01,1210 Taxes Receivable,441941.70,0,Property tax levy recognition month 6,tnguyen,controller,16:36,GL,Approved
+JE-1348,002,2025-12-01,2025-12-01,4010 Property Tax Revenue,0,441941.70,Property tax levy recognition month 6,tnguyen,controller,16:36,GL,Approved
+JE-1155,001,2025-12-02,2025-12-02,5310 Contractual Services,1137.15,0,Vendor invoice 26446 - Contractual Services,tnguyen,finance.director,13:51,AP,Approved
+JE-1155,002,2025-12-02,2025-12-02,2010 Accounts Payable,0,1137.15,Vendor invoice 26446 - Contractual Services,tnguyen,controller,13:51,AP,Approved
+JE-1179,001,2025-12-02,2025-12-02,2010 Accounts Payable,125.36,0,Check run 7562,tnguyen,controller,16:28,AP,Approved
+JE-1179,002,2025-12-02,2025-12-02,1010 Cash - Operating,0,125.36,Check run 7562,tnguyen,controller,16:28,AP,Approved
+JE-1269,001,2025-12-02,2025-12-02,2010 Accounts Payable,186.45,0,Check run 9466,agarcia,finance.director,09:43,AP,Approved
+JE-1269,002,2025-12-02,2025-12-02,1010 Cash - Operating,0,186.45,Check run 9466,agarcia,controller,09:43,AP,Approved
+JE-1363,001,2025-12-04,2025-12-04,1010 Cash - Operating,1094.58,0,Permit and service fees deposit 9,mjohnson,finance.director,14:52,Cash Receipts,Approved
+JE-1363,002,2025-12-04,2025-12-04,4410 Charges for Services,0,1094.58,Permit and service fees deposit 9,mjohnson,controller,14:52,Cash Receipts,Approved
+JE-1403,001,2025-12-04,2025-12-04,5810 Capital Outlay,134567.68,0,Street improvement contractor pay app 5,agarcia,finance.director,16:21,AP,Approved
+JE-1403,002,2025-12-04,2025-12-04,2010 Accounts Payable,0,134567.68,Street improvement contractor pay app 5,agarcia,controller,16:21,AP,Approved
+JE-1023,001,2025-12-05,2025-12-05,5010 Salaries and Wages,208663.42,0,Payroll period 12,tnguyen,finance.director,09:38,Payroll,Approved
+JE-1023,002,2025-12-05,2025-12-05,1010 Cash - Operating,0,208663.42,Payroll period 12,tnguyen,finance.director,09:38,Payroll,Approved
+JE-1024,001,2025-12-05,2025-12-05,5110 Employee Benefits,64685.66,0,Benefits accrual period 12,tnguyen,finance.director,10:00,Payroll,Approved
+JE-1024,002,2025-12-05,2025-12-05,2110 Accrued Payroll,0,64685.66,Benefits accrual period 12,tnguyen,finance.director,10:00,Payroll,Approved
+JE-1060,001,2025-12-05,2025-12-05,5310 Contractual Services,5950.89,0,Vendor invoice 23338 - Contractual Services,tnguyen,finance.director,13:12,AP,Approved
+JE-1060,002,2025-12-05,2025-12-05,2010 Accounts Payable,0,5950.89,Vendor invoice 23338 - Contractual Services,tnguyen,controller,13:12,AP,Approved
+JE-1078,001,2025-12-05,2025-12-05,5310 Contractual Services,590.77,0,Vendor invoice 86202 - Contractual Services,mjohnson,controller,12:21,AP,Approved
+JE-1078,002,2025-12-05,2025-12-05,2010 Accounts Payable,0,590.77,Vendor invoice 86202 - Contractual Services,mjohnson,finance.director,12:21,AP,Approved
+JE-1172,001,2025-12-08,2025-12-08,5410 Utilities,15513.85,0,Vendor invoice 43972 - Utilities,agarcia,finance.director,09:12,AP,Approved
+JE-1172,002,2025-12-08,2025-12-08,2010 Accounts Payable,0,15513.85,Vendor invoice 43972 - Utilities,agarcia,finance.director,09:12,AP,Approved
+JE-1222,001,2025-12-08,2025-12-08,2010 Accounts Payable,2718.30,0,Check run 5662,mjohnson,finance.director,11:41,AP,Approved
+JE-1222,002,2025-12-08,2025-12-08,1010 Cash - Operating,0,2718.30,Check run 5662,mjohnson,finance.director,11:41,AP,Approved
+JE-1233,001,2025-12-08,2025-12-08,2010 Accounts Payable,363.46,0,Check run 7176,mjohnson,finance.director,13:02,AP,Approved
+JE-1233,002,2025-12-08,2025-12-08,1010 Cash - Operating,0,363.46,Check run 7176,mjohnson,controller,13:02,AP,Approved
+JE-1065,001,2025-12-09,2025-12-09,5210 Supplies,51.04,0,Vendor invoice 32367 - Supplies,mjohnson,finance.director,14:57,AP,Approved
+JE-1065,002,2025-12-09,2025-12-09,2010 Accounts Payable,0,51.04,Vendor invoice 32367 - Supplies,mjohnson,finance.director,14:57,AP,Approved
+JE-1262,001,2025-12-09,2025-12-09,2010 Accounts Payable,820.13,0,Check run 8053,mjohnson,controller,11:56,AP,Approved
+JE-1262,002,2025-12-09,2025-12-09,1010 Cash - Operating,0,820.13,Check run 8053,mjohnson,finance.director,11:56,AP,Approved
+JE-1105,001,2025-12-15,2025-12-15,5210 Supplies,67.69,0,Vendor invoice 63844 - Supplies,tnguyen,finance.director,08:28,AP,Approved
+JE-1105,002,2025-12-15,2025-12-15,2010 Accounts Payable,0,67.69,Vendor invoice 63844 - Supplies,tnguyen,finance.director,08:28,AP,Approved
+JE-1315,001,2025-12-16,2025-12-16,1010 Cash - Operating,66052.23,0,Property tax collections batch 33,mjohnson,controller,11:48,Cash Receipts,Approved
+JE-1315,002,2025-12-16,2025-12-16,1210 Taxes Receivable,0,66052.23,Property tax collections batch 33,mjohnson,controller,11:48,Cash Receipts,Approved
+JE-1227,001,2025-12-18,2025-12-18,2010 Accounts Payable,596.40,0,Check run 7813,mjohnson,controller,12:33,AP,Approved
+JE-1227,002,2025-12-18,2025-12-18,1010 Cash - Operating,0,596.40,Check run 7813,mjohnson,controller,12:33,AP,Approved
+JE-1025,001,2025-12-19,2025-12-19,5010 Salaries and Wages,183234.82,0,Payroll period 13,agarcia,finance.director,10:35,Payroll,Approved
+JE-1025,002,2025-12-19,2025-12-19,1010 Cash - Operating,0,183234.82,Payroll period 13,agarcia,finance.director,10:35,Payroll,Approved
+JE-1026,001,2025-12-19,2025-12-19,5110 Employee Benefits,56802.79,0,Benefits accrual period 13,mjohnson,finance.director,17:09,Payroll,Approved
+JE-1026,002,2025-12-19,2025-12-19,2110 Accrued Payroll,0,56802.79,Benefits accrual period 13,mjohnson,finance.director,17:09,Payroll,Approved
+JE-1331,001,2025-12-22,2025-12-22,1010 Cash - Operating,102006.50,0,Property tax collections batch 49,mjohnson,controller,10:21,Cash Receipts,Approved
+JE-1331,002,2025-12-22,2025-12-22,1210 Taxes Receivable,0,102006.50,Property tax collections batch 49,mjohnson,controller,10:21,Cash Receipts,Approved
+JE-1244,001,2025-12-23,2025-12-23,2010 Accounts Payable,5979.80,0,Check run 5660,mjohnson,controller,15:46,AP,Approved
+JE-1244,002,2025-12-23,2025-12-23,1010 Cash - Operating,0,5979.80,Check run 5660,mjohnson,finance.director,15:46,AP,Approved
+JE-1304,001,2025-12-23,2025-12-23,1010 Cash - Operating,54851.19,0,Property tax collections batch 22,tnguyen,finance.director,11:48,Cash Receipts,Approved
+JE-1304,002,2025-12-23,2025-12-23,1210 Taxes Receivable,0,54851.19,Property tax collections batch 22,tnguyen,finance.director,11:48,Cash Receipts,Approved
+JE-1296,001,2025-12-24,2025-12-24,1010 Cash - Operating,223523.57,0,Property tax collections batch 14,mjohnson,controller,16:55,Cash Receipts,Approved
+JE-1296,002,2025-12-24,2025-12-24,1210 Taxes Receivable,0,223523.57,Property tax collections batch 14,mjohnson,controller,16:55,Cash Receipts,Approved
+JE-1192,001,2025-12-25,2025-12-25,2010 Accounts Payable,194.42,0,Check run 6730,mjohnson,finance.director,11:14,AP,Approved
+JE-1192,002,2025-12-25,2025-12-25,1010 Cash - Operating,0,194.42,Check run 6730,mjohnson,controller,11:14,AP,Approved
+JE-1306,001,2025-12-25,2025-12-25,1010 Cash - Operating,85213.36,0,Property tax collections batch 24,mjohnson,controller,08:43,Cash Receipts,Approved
+JE-1306,002,2025-12-25,2025-12-25,1210 Taxes Receivable,0,85213.36,Property tax collections batch 24,mjohnson,controller,08:43,Cash Receipts,Approved
+JE-1099,001,2025-12-26,2025-12-26,5310 Contractual Services,7224.20,0,Vendor invoice 38898 - Contractual Services,mjohnson,finance.director,10:50,AP,Approved
+JE-1099,002,2025-12-26,2025-12-26,2010 Accounts Payable,0,7224.20,Vendor invoice 38898 - Contractual Services,mjohnson,controller,10:50,AP,Approved
+JE-1330,001,2025-12-26,2025-12-26,1010 Cash - Operating,62063.62,0,Property tax collections batch 48,mjohnson,controller,16:16,Cash Receipts,Approved
+JE-1330,002,2025-12-26,2025-12-26,1210 Taxes Receivable,0,62063.62,Property tax collections batch 48,mjohnson,finance.director,16:16,Cash Receipts,Approved
+JE-1212,001,2025-12-29,2025-12-29,2010 Accounts Payable,75.27,0,Check run 6407,tnguyen,controller,08:16,AP,Approved
+JE-1212,002,2025-12-29,2025-12-29,1010 Cash - Operating,0,75.27,Check run 6407,tnguyen,controller,08:16,AP,Approved
+JE-1132,001,2025-12-30,2025-12-30,5410 Utilities,324.47,0,Vendor invoice 98359 - Utilities,tnguyen,controller,16:02,AP,Approved
+JE-1132,002,2025-12-30,2025-12-30,2010 Accounts Payable,0,324.47,Vendor invoice 98359 - Utilities,tnguyen,finance.director,16:02,AP,Approved
+JE-1288,001,2025-12-30,2025-12-30,1010 Cash - Operating,32873.38,0,Property tax collections batch 6,agarcia,finance.director,13:38,Cash Receipts,Approved
+JE-1288,002,2025-12-30,2025-12-30,1210 Taxes Receivable,0,32873.38,Property tax collections batch 6,agarcia,controller,13:38,Cash Receipts,Approved
+JE-1085,001,2026-01-01,2026-01-01,5410 Utilities,1845.01,0,Vendor invoice 58504 - Utilities,mjohnson,controller,11:42,AP,Approved
+JE-1085,002,2026-01-01,2026-01-01,2010 Accounts Payable,0,1845.01,Vendor invoice 58504 - Utilities,mjohnson,controller,11:42,AP,Approved
+JE-1146,001,2026-01-01,2026-01-01,5310 Contractual Services,4411.23,0,Vendor invoice 81421 - Contractual Services,agarcia,finance.director,10:43,AP,Approved
+JE-1146,002,2026-01-01,2026-01-01,2010 Accounts Payable,0,4411.23,Vendor invoice 81421 - Contractual Services,agarcia,finance.director,10:43,AP,Approved
+JE-1168,001,2026-01-01,2026-01-01,5410 Utilities,3361.34,0,Vendor invoice 95229 - Utilities,agarcia,controller,08:27,AP,Approved
+JE-1168,002,2026-01-01,2026-01-01,2010 Accounts Payable,0,3361.34,Vendor invoice 95229 - Utilities,agarcia,finance.director,08:27,AP,Approved
+JE-1349,001,2026-01-01,2026-01-01,1210 Taxes Receivable,510024.16,0,Property tax levy recognition month 7,tnguyen,finance.director,09:51,GL,Approved
+JE-1349,002,2026-01-01,2026-01-01,4010 Property Tax Revenue,0,510024.16,Property tax levy recognition month 7,tnguyen,controller,09:51,GL,Approved
+JE-1373,001,2026-01-01,2026-01-01,1010 Cash - Operating,335.65,0,Permit and service fees deposit 19,agarcia,finance.director,14:44,Cash Receipts,Approved
+JE-1373,002,2026-01-01,2026-01-01,4410 Charges for Services,0,335.65,Permit and service fees deposit 19,agarcia,finance.director,14:44,Cash Receipts,Approved
+JE-1027,001,2026-01-02,2026-01-02,5010 Salaries and Wages,186800.83,0,Payroll period 14,mjohnson,controller,09:25,Payroll,Approved
+JE-1027,002,2026-01-02,2026-01-02,1010 Cash - Operating,0,186800.83,Payroll period 14,mjohnson,finance.director,09:25,Payroll,Approved
+JE-1028,001,2026-01-02,2026-01-02,5110 Employee Benefits,57908.26,0,Benefits accrual period 14,tnguyen,finance.director,14:17,Payroll,Approved
+JE-1028,002,2026-01-02,2026-01-02,2110 Accrued Payroll,0,57908.26,Benefits accrual period 14,tnguyen,controller,14:17,Payroll,Approved
+JE-1326,001,2026-01-05,2026-01-05,1010 Cash - Operating,95932.11,0,Property tax collections batch 44,mjohnson,controller,11:20,Cash Receipts,Approved
+JE-1326,002,2026-01-05,2026-01-05,1210 Taxes Receivable,0,95932.11,Property tax collections batch 44,mjohnson,controller,11:20,Cash Receipts,Approved
+JE-1134,001,2026-01-06,2026-01-06,5210 Supplies,55.46,0,Vendor invoice 44127 - Supplies,agarcia,finance.director,10:30,AP,Approved
+JE-1134,002,2026-01-06,2026-01-06,2010 Accounts Payable,0,55.46,Vendor invoice 44127 - Supplies,agarcia,finance.director,10:30,AP,Approved
+JE-1174,001,2026-01-08,2026-01-08,2010 Accounts Payable,13397.99,0,Check run 6079,tnguyen,finance.director,13:26,AP,Approved
+JE-1174,002,2026-01-08,2026-01-08,1010 Cash - Operating,0,13397.99,Check run 6079,tnguyen,finance.director,13:26,AP,Approved
+JE-1412,001,2026-01-08,2026-01-08,1410 Due From Other Funds,30000.00,0,,,finance.director,13:12,GL,Approved
+JE-1412,002,2026-01-08,2026-01-08,1010 Cash - Operating,0,30000.00,,,controller,13:12,GL,Approved
+JE-1355,001,2026-01-09,2026-01-09,1010 Cash - Operating,364.63,0,Permit and service fees deposit 1,agarcia,finance.director,14:26,Cash Receipts,Approved
+JE-1355,002,2026-01-09,2026-01-09,4410 Charges for Services,0,364.63,Permit and service fees deposit 1,agarcia,finance.director,14:26,Cash Receipts,Approved
+JE-1093,001,2026-01-12,2026-01-12,5210 Supplies,1040.67,0,Vendor invoice 28051 - Supplies,agarcia,finance.director,09:42,AP,Approved
+JE-1093,002,2026-01-12,2026-01-12,2010 Accounts Payable,0,1040.67,Vendor invoice 28051 - Supplies,agarcia,controller,09:42,AP,Approved
+JE-1274,001,2026-01-12,2026-01-12,2010 Accounts Payable,719.02,0,Check run 6932,tnguyen,finance.director,16:47,AP,Approved
+JE-1274,002,2026-01-12,2026-01-12,1010 Cash - Operating,0,719.02,Check run 6932,tnguyen,controller,16:47,AP,Approved
+JE-1156,001,2026-01-13,2026-01-13,5410 Utilities,1276.62,0,Vendor invoice 68935 - Utilities,mjohnson,controller,11:54,AP,Approved
+JE-1156,002,2026-01-13,2026-01-13,2010 Accounts Payable,0,1276.62,Vendor invoice 68935 - Utilities,mjohnson,finance.director,11:54,AP,Approved
+JE-1297,001,2026-01-13,2026-01-13,1010 Cash - Operating,105482.86,0,Property tax collections batch 15,agarcia,finance.director,15:54,Cash Receipts,Approved
+JE-1297,002,2026-01-13,2026-01-13,1210 Taxes Receivable,0,105482.86,Property tax collections batch 15,agarcia,finance.director,15:54,Cash Receipts,Approved
+JE-1243,001,2026-01-15,2026-01-15,2010 Accounts Payable,409.95,0,Check run 8897,tnguyen,controller,15:46,AP,Approved
+JE-1243,002,2026-01-15,2026-01-15,1010 Cash - Operating,0,409.95,Check run 8897,tnguyen,controller,15:46,AP,Approved
+JE-1308,001,2026-01-15,2026-01-15,1010 Cash - Operating,257089.54,0,Property tax collections batch 26,agarcia,controller,14:40,Cash Receipts,Approved
+JE-1308,002,2026-01-15,2026-01-15,1210 Taxes Receivable,0,257089.54,Property tax collections batch 26,agarcia,controller,14:40,Cash Receipts,Approved
+JE-1400,001,2026-01-15,2026-01-15,5810 Capital Outlay,66704.06,0,Street improvement contractor pay app 2,mjohnson,controller,14:20,AP,Approved
+JE-1400,002,2026-01-15,2026-01-15,2010 Accounts Payable,0,66704.06,Street improvement contractor pay app 2,mjohnson,finance.director,14:20,AP,Approved
+JE-1029,001,2026-01-16,2026-01-16,5010 Salaries and Wages,186552.42,0,Payroll period 15,mjohnson,controller,14:20,Payroll,Approved
+JE-1029,002,2026-01-16,2026-01-16,1010 Cash - Operating,0,186552.42,Payroll period 15,mjohnson,controller,14:20,Payroll,Approved
+JE-1030,001,2026-01-16,2026-01-16,5110 Employee Benefits,57831.25,0,Benefits accrual period 15,mjohnson,finance.director,15:20,Payroll,Approved
+JE-1030,002,2026-01-16,2026-01-16,2110 Accrued Payroll,0,57831.25,Benefits accrual period 15,mjohnson,controller,15:20,Payroll,Approved
+JE-1341,001,2026-01-16,2026-01-16,1010 Cash - Operating,44235.04,0,Property tax collections batch 59,mjohnson,controller,13:33,Cash Receipts,Approved
+JE-1341,002,2026-01-16,2026-01-16,1210 Taxes Receivable,0,44235.04,Property tax collections batch 59,mjohnson,finance.director,13:33,Cash Receipts,Approved
+JE-1109,001,2026-01-20,2026-01-20,5310 Contractual Services,113.78,0,Vendor invoice 47642 - Contractual Services,agarcia,controller,12:02,AP,Approved
+JE-1109,002,2026-01-20,2026-01-20,2010 Accounts Payable,0,113.78,Vendor invoice 47642 - Contractual Services,agarcia,finance.director,12:02,AP,Approved
+JE-1305,001,2026-01-20,2026-01-20,1010 Cash - Operating,195157.89,0,Property tax collections batch 23,mjohnson,controller,16:50,Cash Receipts,Approved
+JE-1305,002,2026-01-20,2026-01-20,1210 Taxes Receivable,0,195157.89,Property tax collections batch 23,mjohnson,finance.director,16:50,Cash Receipts,Approved
+JE-1246,001,2026-01-22,2026-01-22,2010 Accounts Payable,743.33,0,Check run 6649,tnguyen,finance.director,17:46,AP,Approved
+JE-1246,002,2026-01-22,2026-01-22,1010 Cash - Operating,0,743.33,Check run 6649,tnguyen,controller,17:46,AP,Approved
+JE-1249,001,2026-01-22,2026-01-22,2010 Accounts Payable,44.81,0,Check run 6701,agarcia,controller,17:04,AP,Approved
+JE-1249,002,2026-01-22,2026-01-22,1010 Cash - Operating,0,44.81,Check run 6701,agarcia,finance.director,17:04,AP,Approved
+JE-1152,001,2026-01-23,2026-01-23,5410 Utilities,443.20,0,Vendor invoice 34106 - Utilities,mjohnson,controller,09:45,AP,Approved
+JE-1152,002,2026-01-23,2026-01-23,2010 Accounts Payable,0,443.20,Vendor invoice 34106 - Utilities,mjohnson,finance.director,09:45,AP,Approved
+JE-1106,001,2026-01-26,2026-01-26,5410 Utilities,4542.09,0,Vendor invoice 19618 - Utilities,mjohnson,finance.director,10:30,AP,Approved
+JE-1106,002,2026-01-26,2026-01-26,2010 Accounts Payable,0,4542.09,Vendor invoice 19618 - Utilities,mjohnson,controller,10:30,AP,Approved
+JE-1238,001,2026-01-26,2026-01-26,2010 Accounts Payable,121.99,0,Check run 9401,agarcia,controller,13:29,AP,Approved
+JE-1238,002,2026-01-26,2026-01-26,1010 Cash - Operating,0,121.99,Check run 9401,agarcia,finance.director,13:29,AP,Approved
+JE-1057,001,2026-01-27,2026-01-27,5410 Utilities,1924.10,0,Vendor invoice 39380 - Utilities,tnguyen,finance.director,14:00,AP,Approved
+JE-1057,002,2026-01-27,2026-01-27,2010 Accounts Payable,0,1924.10,Vendor invoice 39380 - Utilities,tnguyen,controller,14:00,AP,Approved
+JE-1378,001,2026-01-27,2026-01-27,1010 Cash - Operating,851.36,0,Permit and service fees deposit 24,agarcia,controller,14:15,Cash Receipts,Approved
+JE-1378,002,2026-01-27,2026-01-27,4410 Charges for Services,0,851.36,Permit and service fees deposit 24,agarcia,controller,14:15,Cash Receipts,Approved
+JE-1287,001,2026-01-28,2026-01-28,1010 Cash - Operating,38368.22,0,Property tax collections batch 5,tnguyen,finance.director,14:28,Cash Receipts,Approved
+JE-1287,002,2026-01-28,2026-01-28,1210 Taxes Receivable,0,38368.22,Property tax collections batch 5,tnguyen,controller,14:28,Cash Receipts,Approved
+JE-1380,001,2026-01-28,2026-01-28,1010 Cash - Operating,563.58,0,Permit and service fees deposit 26,agarcia,finance.director,16:12,Cash Receipts,Approved
+JE-1380,002,2026-01-28,2026-01-28,4410 Charges for Services,0,563.58,Permit and service fees deposit 26,agarcia,controller,16:12,Cash Receipts,Approved
+JE-1372,001,2026-01-29,2026-01-29,1010 Cash - Operating,2540.27,0,Permit and service fees deposit 18,mjohnson,finance.director,10:15,Cash Receipts,Approved
+JE-1372,002,2026-01-29,2026-01-29,4410 Charges for Services,0,2540.27,Permit and service fees deposit 18,mjohnson,controller,10:15,Cash Receipts,Approved
+JE-1031,001,2026-01-30,2026-01-30,5010 Salaries and Wages,205725.13,0,Payroll period 16,agarcia,controller,10:16,Payroll,Approved
+JE-1031,002,2026-01-30,2026-01-30,1010 Cash - Operating,0,205725.13,Payroll period 16,agarcia,finance.director,10:16,Payroll,Approved
+JE-1032,001,2026-01-30,2026-01-30,5110 Employee Benefits,63774.79,0,Benefits accrual period 16,agarcia,controller,08:17,Payroll,Approved
+JE-1032,002,2026-01-30,2026-01-30,2110 Accrued Payroll,0,63774.79,Benefits accrual period 16,agarcia,controller,08:17,Payroll,Approved
+JE-1350,001,2026-02-01,2026-02-01,1210 Taxes Receivable,404292.58,0,Property tax levy recognition month 8,tnguyen,finance.director,09:18,GL,Approved
+JE-1350,002,2026-02-01,2026-02-01,4010 Property Tax Revenue,0,404292.58,Property tax levy recognition month 8,tnguyen,controller,09:18,GL,Approved
+JE-1166,001,2026-02-02,2026-02-02,5410 Utilities,9187.57,0,Vendor invoice 97623 - Utilities,agarcia,controller,12:59,AP,Approved
+JE-1166,002,2026-02-02,2026-02-02,2010 Accounts Payable,0,9187.57,Vendor invoice 97623 - Utilities,agarcia,finance.director,12:59,AP,Approved
+JE-1414,001,2026-02-03,2026-02-03,1810 Capital Assets,60000.00,0,Capitalize fire engine,agarcia,controller,12:46,GL,Approved
+JE-1414,002,2026-02-03,2026-02-03,5810 Capital Outlay,0,60000.00,Capitalize fire engine,agarcia,controller,12:46,GL,Approved
+JE-1284,001,2026-02-04,2026-02-04,1010 Cash - Operating,39766.49,0,Property tax collections batch 2,mjohnson,finance.director,16:12,Cash Receipts,Approved
+JE-1284,002,2026-02-04,2026-02-04,1210 Taxes Receivable,0,39766.49,Property tax collections batch 2,mjohnson,finance.director,16:12,Cash Receipts,Approved
+JE-1210,001,2026-02-05,2026-02-05,2010 Accounts Payable,2127.23,0,Check run 8965,tnguyen,finance.director,17:59,AP,Approved
+JE-1210,002,2026-02-05,2026-02-05,1010 Cash - Operating,0,2127.23,Check run 8965,tnguyen,finance.director,17:59,AP,Approved
+JE-1312,001,2026-02-05,2026-02-05,1010 Cash - Operating,65177.19,0,Property tax collections batch 30,agarcia,finance.director,14:44,Cash Receipts,Approved
+JE-1312,002,2026-02-05,2026-02-05,1210 Taxes Receivable,0,65177.19,Property tax collections batch 30,agarcia,controller,14:44,Cash Receipts,Approved
+JE-1162,001,2026-02-09,2026-02-09,5410 Utilities,194.76,0,Vendor invoice 26736 - Utilities,tnguyen,controller,16:00,AP,Approved
+JE-1162,002,2026-02-09,2026-02-09,2010 Accounts Payable,0,194.76,Vendor invoice 26736 - Utilities,tnguyen,controller,16:00,AP,Approved
+JE-1187,001,2026-02-09,2026-02-09,2010 Accounts Payable,2311.29,0,Check run 7512,agarcia,finance.director,12:56,AP,Approved
+JE-1187,002,2026-02-09,2026-02-09,1010 Cash - Operating,0,2311.29,Check run 7512,agarcia,controller,12:56,AP,Approved
+JE-1121,001,2026-02-10,2026-02-10,5210 Supplies,531.81,0,Vendor invoice 83381 - Supplies,tnguyen,controller,15:28,AP,Approved
+JE-1121,002,2026-02-10,2026-02-10,2010 Accounts Payable,0,531.81,Vendor invoice 83381 - Supplies,tnguyen,finance.director,15:28,AP,Approved
+JE-1182,001,2026-02-10,2026-02-10,2010 Accounts Payable,803.60,0,Check run 8314,mjohnson,controller,13:16,AP,Approved
+JE-1182,002,2026-02-10,2026-02-10,1010 Cash - Operating,0,803.60,Check run 8314,mjohnson,controller,13:16,AP,Approved
+JE-1220,001,2026-02-10,2026-02-10,2010 Accounts Payable,244.96,0,Check run 5899,tnguyen,finance.director,14:29,AP,Approved
+JE-1220,002,2026-02-10,2026-02-10,1010 Cash - Operating,0,244.96,Check run 5899,tnguyen,finance.director,14:29,AP,Approved
+JE-1291,001,2026-02-10,2026-02-10,1010 Cash - Operating,167461.31,0,Property tax collections batch 9,tnguyen,finance.director,16:10,Cash Receipts,Approved
+JE-1291,002,2026-02-10,2026-02-10,1210 Taxes Receivable,0,167461.31,Property tax collections batch 9,tnguyen,controller,16:10,Cash Receipts,Approved
+JE-1175,001,2026-02-11,2026-02-11,2010 Accounts Payable,659.94,0,Check run 7805,mjohnson,finance.director,15:36,AP,Approved
+JE-1175,002,2026-02-11,2026-02-11,1010 Cash - Operating,0,659.94,Check run 7805,mjohnson,controller,15:36,AP,Approved
+JE-1144,001,2026-02-12,2026-02-12,5310 Contractual Services,55.19,0,Vendor invoice 77943 - Contractual Services,mjohnson,finance.director,08:27,AP,Approved
+JE-1144,002,2026-02-12,2026-02-12,2010 Accounts Payable,0,55.19,Vendor invoice 77943 - Contractual Services,mjohnson,finance.director,08:27,AP,Approved
+JE-1387,001,2026-02-12,2026-02-12,1010 Cash - Operating,3457.35,0,Permit and service fees deposit 33,tnguyen,controller,11:00,Cash Receipts,Approved
+JE-1387,002,2026-02-12,2026-02-12,4410 Charges for Services,0,3457.35,Permit and service fees deposit 33,tnguyen,finance.director,11:00,Cash Receipts,Approved
+JE-1033,001,2026-02-13,2026-02-13,5010 Salaries and Wages,188754.11,0,Payroll period 17,tnguyen,finance.director,08:17,Payroll,Approved
+JE-1033,002,2026-02-13,2026-02-13,1010 Cash - Operating,0,188754.11,Payroll period 17,tnguyen,controller,08:17,Payroll,Approved
+JE-1034,001,2026-02-13,2026-02-13,5110 Employee Benefits,58513.77,0,Benefits accrual period 17,mjohnson,finance.director,14:11,Payroll,Approved
+JE-1034,002,2026-02-13,2026-02-13,2110 Accrued Payroll,0,58513.77,Benefits accrual period 17,mjohnson,finance.director,14:11,Payroll,Approved
+JE-1159,001,2026-02-13,2026-02-13,5210 Supplies,244.28,0,Vendor invoice 38392 - Supplies,tnguyen,controller,16:15,AP,Approved
+JE-1159,002,2026-02-13,2026-02-13,2010 Accounts Payable,0,244.28,Vendor invoice 38392 - Supplies,tnguyen,finance.director,16:15,AP,Approved
+JE-1240,001,2026-02-17,2026-02-17,2010 Accounts Payable,5120.40,0,Check run 9117,tnguyen,controller,16:44,AP,Approved
+JE-1240,002,2026-02-17,2026-02-17,1010 Cash - Operating,0,5120.40,Check run 9117,tnguyen,controller,16:44,AP,Approved
+JE-1165,001,2026-02-18,2026-02-18,5410 Utilities,142.07,0,Vendor invoice 55245 - Utilities,agarcia,controller,14:39,AP,Approved
+JE-1165,002,2026-02-18,2026-02-18,2010 Accounts Payable,0,142.07,Vendor invoice 55245 - Utilities,agarcia,finance.director,14:39,AP,Approved
+JE-1205,001,2026-02-18,2026-02-18,2010 Accounts Payable,10682.10,0,Check run 9325,agarcia,controller,12:22,AP,Approved
+JE-1205,002,2026-02-18,2026-02-18,1010 Cash - Operating,0,10682.10,Check run 9325,agarcia,controller,12:22,AP,Approved
+JE-1096,001,2026-02-19,2026-02-19,5310 Contractual Services,157.01,0,Vendor invoice 77356 - Contractual Services,tnguyen,controller,12:11,AP,Approved
+JE-1096,002,2026-02-19,2026-02-19,2010 Accounts Payable,0,157.01,Vendor invoice 77356 - Contractual Services,tnguyen,controller,12:11,AP,Approved
+JE-1256,001,2026-02-19,2026-02-19,2010 Accounts Payable,261.92,0,Check run 7047,mjohnson,finance.director,10:33,AP,Approved
+JE-1256,002,2026-02-19,2026-02-19,1010 Cash - Operating,0,261.92,Check run 7047,mjohnson,controller,10:33,AP,Approved
+JE-1382,001,2026-02-19,2026-02-19,1010 Cash - Operating,6890.15,0,Permit and service fees deposit 28,tnguyen,controller,17:06,Cash Receipts,Approved
+JE-1382,002,2026-02-19,2026-02-19,4410 Charges for Services,0,6890.15,Permit and service fees deposit 28,tnguyen,finance.director,17:06,Cash Receipts,Approved
+JE-1127,001,2026-02-25,2026-02-25,5410 Utilities,2107.66,0,Vendor invoice 90160 - Utilities,mjohnson,controller,09:58,AP,Approved
+JE-1127,002,2026-02-25,2026-02-25,2010 Accounts Payable,0,2107.66,Vendor invoice 90160 - Utilities,mjohnson,finance.director,09:58,AP,Approved
+JE-1206,001,2026-02-25,2026-02-25,2010 Accounts Payable,1980.89,0,Check run 9985,mjohnson,finance.director,09:41,AP,Approved
+JE-1206,002,2026-02-25,2026-02-25,1010 Cash - Operating,0,1980.89,Check run 9985,mjohnson,controller,09:41,AP,Approved
+JE-1391,001,2026-02-25,2026-02-25,1010 Cash - Operating,317.50,0,Permit and service fees deposit 37,mjohnson,controller,08:43,Cash Receipts,Approved
+JE-1391,002,2026-02-25,2026-02-25,4410 Charges for Services,0,317.50,Permit and service fees deposit 37,mjohnson,controller,08:43,Cash Receipts,Approved
+JE-1070,001,2026-02-26,2026-02-26,5210 Supplies,478.90,0,Vendor invoice 65269 - Supplies,tnguyen,controller,17:52,AP,Approved
+JE-1070,002,2026-02-26,2026-02-26,2010 Accounts Payable,0,478.90,Vendor invoice 65269 - Supplies,tnguyen,controller,17:52,AP,Approved
+JE-1035,001,2026-02-27,2026-02-27,5010 Salaries and Wages,188272.39,0,Payroll period 18,tnguyen,controller,16:12,Payroll,Approved
+JE-1035,002,2026-02-27,2026-02-27,1010 Cash - Operating,0,188272.39,Payroll period 18,tnguyen,controller,16:12,Payroll,Approved
+JE-1036,001,2026-02-27,2026-02-27,5110 Employee Benefits,58364.44,0,Benefits accrual period 18,mjohnson,finance.director,17:37,Payroll,Approved
+JE-1036,002,2026-02-27,2026-02-27,2110 Accrued Payroll,0,58364.44,Benefits accrual period 18,mjohnson,finance.director,17:37,Payroll,Approved
+JE-1320,001,2026-02-27,2026-02-27,1010 Cash - Operating,138541.69,0,Property tax collections batch 38,tnguyen,finance.director,10:23,Cash Receipts,Approved
+JE-1320,002,2026-02-27,2026-02-27,1210 Taxes Receivable,0,138541.69,Property tax collections batch 38,tnguyen,finance.director,10:23,Cash Receipts,Approved
+JE-1351,001,2026-03-01,2026-03-01,1210 Taxes Receivable,472385.91,0,Property tax levy recognition month 9,mjohnson,finance.director,17:50,GL,Approved
+JE-1351,002,2026-03-01,2026-03-01,4010 Property Tax Revenue,0,472385.91,Property tax levy recognition month 9,mjohnson,controller,17:50,GL,Approved
+JE-1201,001,2026-03-02,2026-03-02,2010 Accounts Payable,69.31,0,Check run 9088,mjohnson,finance.director,15:49,AP,Approved
+JE-1201,002,2026-03-02,2026-03-02,1010 Cash - Operating,0,69.31,Check run 9088,mjohnson,controller,15:49,AP,Approved
+JE-1250,001,2026-03-03,2026-03-03,2010 Accounts Payable,118.58,0,Check run 7445,mjohnson,controller,09:08,AP,Approved
+JE-1250,002,2026-03-03,2026-03-03,1010 Cash - Operating,0,118.58,Check run 7445,mjohnson,controller,09:08,AP,Approved
+JE-1251,001,2026-03-03,2026-03-03,2010 Accounts Payable,12192.71,0,Check run 8766,mjohnson,finance.director,16:46,AP,Approved
+JE-1251,002,2026-03-03,2026-03-03,1010 Cash - Operating,0,12192.71,Check run 8766,mjohnson,controller,16:46,AP,Approved
+JE-1283,001,2026-03-03,2026-03-03,1010 Cash - Operating,78980.52,0,Property tax collections batch 1,agarcia,controller,15:28,Cash Receipts,Approved
+JE-1283,002,2026-03-03,2026-03-03,1210 Taxes Receivable,0,78980.52,Property tax collections batch 1,agarcia,finance.director,15:28,Cash Receipts,Approved
+JE-1385,001,2026-03-03,2026-03-03,1010 Cash - Operating,4715.36,0,Permit and service fees deposit 31,agarcia,finance.director,10:14,Cash Receipts,Approved
+JE-1385,002,2026-03-03,2026-03-03,4410 Charges for Services,0,4715.36,Permit and service fees deposit 31,agarcia,finance.director,10:14,Cash Receipts,Approved
+JE-1393,001,2026-03-03,2026-03-03,1010 Cash - Operating,2025.91,0,Permit and service fees deposit 39,tnguyen,controller,13:36,Cash Receipts,Approved
+JE-1393,002,2026-03-03,2026-03-03,4410 Charges for Services,0,2025.91,Permit and service fees deposit 39,tnguyen,controller,13:36,Cash Receipts,Approved
+JE-1307,001,2026-03-05,2026-03-05,1010 Cash - Operating,53448.60,0,Property tax collections batch 25,agarcia,controller,09:47,Cash Receipts,Approved
+JE-1307,002,2026-03-05,2026-03-05,1210 Taxes Receivable,0,53448.60,Property tax collections batch 25,agarcia,controller,09:47,Cash Receipts,Approved
+JE-1125,001,2026-03-09,2026-03-09,5310 Contractual Services,15899.39,0,Vendor invoice 27728 - Contractual Services,tnguyen,controller,08:32,AP,Approved
+JE-1125,002,2026-03-09,2026-03-09,2010 Accounts Payable,0,15899.39,Vendor invoice 27728 - Contractual Services,tnguyen,controller,08:32,AP,Approved
+JE-1277,001,2026-03-09,2026-03-09,2010 Accounts Payable,2518.05,0,Check run 8374,agarcia,controller,16:01,AP,Approved
+JE-1277,002,2026-03-09,2026-03-09,1010 Cash - Operating,0,2518.05,Check run 8374,agarcia,controller,16:01,AP,Approved
+JE-1409,001,2026-03-10,2026-03-10,5310 Contractual Services,18750.00,0,Vendor invoice 88412 - Contractual Services,mjohnson,controller,13:07,AP,Approved
+JE-1409,002,2026-03-10,2026-03-10,2010 Accounts Payable,0,18750.00,Vendor invoice 88412 - Contractual Services,mjohnson,finance.director,13:07,AP,Approved
+JE-1229,001,2026-03-11,2026-03-11,2010 Accounts Payable,2770.28,0,Check run 6559,agarcia,controller,08:21,AP,Approved
+JE-1229,002,2026-03-11,2026-03-11,1010 Cash - Operating,0,2770.28,Check run 6559,agarcia,finance.director,08:21,AP,Approved
+JE-1185,001,2026-03-12,2026-03-12,2010 Accounts Payable,8473.71,0,Check run 5100,mjohnson,finance.director,12:41,AP,Approved
+JE-1185,002,2026-03-12,2026-03-12,1010 Cash - Operating,0,8473.71,Check run 5100,mjohnson,controller,12:41,AP,Approved
+JE-1236,001,2026-03-12,2026-03-12,2010 Accounts Payable,531.34,0,Check run 9935,agarcia,controller,11:13,AP,Approved
+JE-1236,002,2026-03-12,2026-03-12,1010 Cash - Operating,0,531.34,Check run 9935,agarcia,finance.director,11:13,AP,Approved
+JE-1258,001,2026-03-12,2026-03-12,2010 Accounts Payable,125.50,0,Check run 9342,agarcia,controller,17:42,AP,Approved
+JE-1258,002,2026-03-12,2026-03-12,1010 Cash - Operating,0,125.50,Check run 9342,agarcia,finance.director,17:42,AP,Approved
+JE-1410,001,2026-03-12,2026-03-12,5310 Contractual Services,18750.00,0,Vendor invoice 88412 - Contractual Services,tnguyen,controller,14:20,AP,Approved
+JE-1410,002,2026-03-12,2026-03-12,2010 Accounts Payable,0,18750.00,Vendor invoice 88412 - Contractual Services,tnguyen,finance.director,14:20,AP,Approved
+JE-1037,001,2026-03-13,2026-03-13,5010 Salaries and Wages,180598.59,0,Payroll period 19,tnguyen,finance.director,12:57,Payroll,Approved
+JE-1037,002,2026-03-13,2026-03-13,1010 Cash - Operating,0,180598.59,Payroll period 19,tnguyen,finance.director,12:57,Payroll,Approved
+JE-1038,001,2026-03-13,2026-03-13,5110 Employee Benefits,55985.56,0,Benefits accrual period 19,tnguyen,controller,16:08,Payroll,Approved
+JE-1038,002,2026-03-13,2026-03-13,2110 Accrued Payroll,0,55985.56,Benefits accrual period 19,tnguyen,finance.director,16:08,Payroll,Approved
+JE-1061,001,2026-03-13,2026-03-13,5410 Utilities,70.11,0,Vendor invoice 62500 - Utilities,tnguyen,controller,17:09,AP,Approved
+JE-1061,002,2026-03-13,2026-03-13,2010 Accounts Payable,0,70.11,Vendor invoice 62500 - Utilities,tnguyen,finance.director,17:09,AP,Approved
+JE-1116,001,2026-03-16,2026-03-16,5410 Utilities,1348.65,0,Vendor invoice 45064 - Utilities,mjohnson,finance.director,13:56,AP,Approved
+JE-1116,002,2026-03-16,2026-03-16,2010 Accounts Payable,0,1348.65,Vendor invoice 45064 - Utilities,mjohnson,controller,13:56,AP,Approved
+JE-1130,001,2026-03-16,2026-03-16,5310 Contractual Services,539.42,0,Vendor invoice 52820 - Contractual Services,agarcia,finance.director,09:46,AP,Approved
+JE-1130,002,2026-03-16,2026-03-16,2010 Accounts Payable,0,539.42,Vendor invoice 52820 - Contractual Services,agarcia,controller,09:46,AP,Approved
+JE-1135,001,2026-03-16,2026-03-16,5410 Utilities,12921.72,0,Vendor invoice 81550 - Utilities,tnguyen,finance.director,14:42,AP,Approved
+JE-1135,002,2026-03-16,2026-03-16,2010 Accounts Payable,0,12921.72,Vendor invoice 81550 - Utilities,tnguyen,controller,14:42,AP,Approved
+JE-1148,001,2026-03-18,2026-03-18,5210 Supplies,66.19,0,Vendor invoice 41158 - Supplies,agarcia,controller,16:44,AP,Approved
+JE-1148,002,2026-03-18,2026-03-18,2010 Accounts Payable,0,66.19,Vendor invoice 41158 - Supplies,agarcia,finance.director,16:44,AP,Approved
+JE-1357,001,2026-03-18,2026-03-18,1010 Cash - Operating,2388.61,0,Permit and service fees deposit 3,tnguyen,finance.director,15:52,Cash Receipts,Approved
+JE-1357,002,2026-03-18,2026-03-18,4410 Charges for Services,0,2388.61,Permit and service fees deposit 3,tnguyen,finance.director,15:52,Cash Receipts,Approved
+JE-1068,001,2026-03-19,2026-03-19,5310 Contractual Services,399.72,0,Vendor invoice 60775 - Contractual Services,tnguyen,finance.director,09:32,AP,Approved
+JE-1068,002,2026-03-19,2026-03-19,2010 Accounts Payable,0,399.72,Vendor invoice 60775 - Contractual Services,tnguyen,controller,09:32,AP,Approved
+JE-1149,001,2026-03-19,2026-03-19,5310 Contractual Services,410.63,0,Vendor invoice 94003 - Contractual Services,agarcia,controller,10:12,AP,Approved
+JE-1149,002,2026-03-19,2026-03-19,2010 Accounts Payable,0,410.63,Vendor invoice 94003 - Contractual Services,agarcia,finance.director,10:12,AP,Approved
+JE-1178,001,2026-03-19,2026-03-19,2010 Accounts Payable,318.24,0,Check run 9548,tnguyen,finance.director,15:01,AP,Approved
+JE-1178,002,2026-03-19,2026-03-19,1010 Cash - Operating,0,318.24,Check run 9548,tnguyen,controller,15:01,AP,Approved
+JE-1298,001,2026-03-23,2026-03-23,1010 Cash - Operating,21318.88,0,Property tax collections batch 16,tnguyen,finance.director,14:40,Cash Receipts,Approved
+JE-1298,002,2026-03-23,2026-03-23,1210 Taxes Receivable,0,21318.88,Property tax collections batch 16,tnguyen,controller,14:40,Cash Receipts,Approved
+JE-1184,001,2026-03-24,2026-03-24,2010 Accounts Payable,1206.02,0,Check run 6220,tnguyen,finance.director,09:49,AP,Approved
+JE-1184,002,2026-03-24,2026-03-24,1010 Cash - Operating,0,1206.02,Check run 6220,tnguyen,finance.director,09:49,AP,Approved
+JE-1074,001,2026-03-26,2026-03-26,5410 Utilities,2163.59,0,Vendor invoice 22500 - Utilities,agarcia,finance.director,09:20,AP,Approved
+JE-1074,002,2026-03-26,2026-03-26,2010 Accounts Payable,0,2163.59,Vendor invoice 22500 - Utilities,agarcia,finance.director,09:20,AP,Approved
+JE-1186,001,2026-03-26,2026-03-26,2010 Accounts Payable,6282.57,0,Check run 8884,tnguyen,finance.director,16:09,AP,Approved
+JE-1186,002,2026-03-26,2026-03-26,1010 Cash - Operating,0,6282.57,Check run 8884,tnguyen,controller,16:09,AP,Approved
+JE-1260,001,2026-03-26,2026-03-26,2010 Accounts Payable,184.84,0,Check run 8877,mjohnson,finance.director,10:15,AP,Approved
+JE-1260,002,2026-03-26,2026-03-26,1010 Cash - Operating,0,184.84,Check run 8877,mjohnson,finance.director,10:15,AP,Approved
+JE-1039,001,2026-03-27,2026-03-27,5010 Salaries and Wages,199260.72,0,Payroll period 20,mjohnson,finance.director,10:34,Payroll,Approved
+JE-1039,002,2026-03-27,2026-03-27,1010 Cash - Operating,0,199260.72,Payroll period 20,mjohnson,finance.director,10:34,Payroll,Approved
+JE-1040,001,2026-03-27,2026-03-27,5110 Employee Benefits,61770.82,0,Benefits accrual period 20,mjohnson,controller,08:30,Payroll,Approved
+JE-1040,002,2026-03-27,2026-03-27,2110 Accrued Payroll,0,61770.82,Benefits accrual period 20,mjohnson,controller,08:30,Payroll,Approved
+JE-1285,001,2026-03-27,2026-03-27,1010 Cash - Operating,80887.39,0,Property tax collections batch 3,agarcia,finance.director,10:01,Cash Receipts,Approved
+JE-1285,002,2026-03-27,2026-03-27,1210 Taxes Receivable,0,80887.39,Property tax collections batch 3,agarcia,finance.director,10:01,Cash Receipts,Approved
+JE-1072,001,2026-04-01,2026-04-01,5410 Utilities,459.52,0,Vendor invoice 27262 - Utilities,mjohnson,controller,13:15,AP,Approved
+JE-1072,002,2026-04-01,2026-04-01,2010 Accounts Payable,0,459.52,Vendor invoice 27262 - Utilities,mjohnson,finance.director,13:15,AP,Approved
+JE-1214,001,2026-04-01,2026-04-01,2010 Accounts Payable,3639.27,0,Check run 9572,agarcia,controller,13:27,AP,Approved
+JE-1214,002,2026-04-01,2026-04-01,1010 Cash - Operating,0,3639.27,Check run 9572,agarcia,finance.director,13:27,AP,Approved
+JE-1352,001,2026-04-01,2026-04-01,1210 Taxes Receivable,383615.17,0,Property tax levy recognition month 10,mjohnson,finance.director,10:31,GL,Approved
+JE-1352,002,2026-04-01,2026-04-01,4010 Property Tax Revenue,0,383615.17,Property tax levy recognition month 10,mjohnson,controller,10:31,GL,Approved
+JE-1394,001,2026-04-01,2026-04-01,1010 Cash - Operating,650.14,0,Permit and service fees deposit 40,tnguyen,controller,15:29,Cash Receipts,Approved
+JE-1394,002,2026-04-01,2026-04-01,4410 Charges for Services,0,650.14,Permit and service fees deposit 40,tnguyen,controller,15:29,Cash Receipts,Approved
+JE-1136,001,2026-04-03,2026-04-03,5310 Contractual Services,218.80,0,Vendor invoice 90480 - Contractual Services,agarcia,controller,08:32,AP,Approved
+JE-1136,002,2026-04-03,2026-04-03,2010 Accounts Payable,0,218.80,Vendor invoice 90480 - Contractual Services,agarcia,finance.director,08:32,AP,Approved
+JE-1366,001,2026-04-03,2026-04-03,1010 Cash - Operating,1033.70,0,Permit and service fees deposit 12,agarcia,finance.director,12:02,Cash Receipts,Approved
+JE-1366,002,2026-04-03,2026-04-03,4410 Charges for Services,0,1033.70,Permit and service fees deposit 12,agarcia,finance.director,12:02,Cash Receipts,Approved
+JE-1092,001,2026-04-06,2026-04-06,5410 Utilities,159.43,0,Vendor invoice 99898 - Utilities,agarcia,finance.director,16:14,AP,Approved
+JE-1092,002,2026-04-06,2026-04-06,2010 Accounts Payable,0,159.43,Vendor invoice 99898 - Utilities,agarcia,finance.director,16:14,AP,Approved
+JE-1216,001,2026-04-06,2026-04-06,2010 Accounts Payable,1305.21,0,Check run 6253,agarcia,finance.director,14:46,AP,Approved
+JE-1216,002,2026-04-06,2026-04-06,1010 Cash - Operating,0,1305.21,Check run 6253,agarcia,finance.director,14:46,AP,Approved
+JE-1340,001,2026-04-06,2026-04-06,1010 Cash - Operating,44118.62,0,Property tax collections batch 58,tnguyen,finance.director,17:20,Cash Receipts,Approved
+JE-1340,002,2026-04-06,2026-04-06,1210 Taxes Receivable,0,44118.62,Property tax collections batch 58,tnguyen,finance.director,17:20,Cash Receipts,Approved
+JE-1167,001,2026-04-07,2026-04-07,5310 Contractual Services,577.77,0,Vendor invoice 20763 - Contractual Services,mjohnson,controller,15:01,AP,Approved
+JE-1167,002,2026-04-07,2026-04-07,2010 Accounts Payable,0,577.77,Vendor invoice 20763 - Contractual Services,mjohnson,controller,15:01,AP,Approved
+JE-1062,001,2026-04-08,2026-04-08,5310 Contractual Services,102.41,0,Vendor invoice 45605 - Contractual Services,mjohnson,controller,14:35,AP,Approved
+JE-1062,002,2026-04-08,2026-04-08,2010 Accounts Payable,0,102.41,Vendor invoice 45605 - Contractual Services,mjohnson,controller,14:35,AP,Approved
+JE-1278,001,2026-04-08,2026-04-08,2010 Accounts Payable,150.14,0,Check run 5692,agarcia,controller,15:03,AP,Approved
+JE-1278,002,2026-04-08,2026-04-08,1010 Cash - Operating,0,150.14,Check run 5692,agarcia,finance.director,15:03,AP,Approved
+JE-1294,001,2026-04-08,2026-04-08,1010 Cash - Operating,224962.84,0,Property tax collections batch 12,tnguyen,finance.director,09:24,Cash Receipts,Approved
+JE-1294,002,2026-04-08,2026-04-08,1210 Taxes Receivable,0,224962.84,Property tax collections batch 12,tnguyen,finance.director,09:24,Cash Receipts,Approved
+JE-1041,001,2026-04-10,2026-04-10,5010 Salaries and Wages,182285.70,0,Payroll period 21,mjohnson,finance.director,17:06,Payroll,Approved
+JE-1041,002,2026-04-10,2026-04-10,1010 Cash - Operating,0,182285.70,Payroll period 21,mjohnson,controller,17:06,Payroll,Approved
+JE-1042,001,2026-04-10,2026-04-10,5110 Employee Benefits,56508.57,0,Benefits accrual period 21,tnguyen,finance.director,17:49,Payroll,Approved
+JE-1042,002,2026-04-10,2026-04-10,2110 Accrued Payroll,0,56508.57,Benefits accrual period 21,tnguyen,controller,17:49,Payroll,Approved
+JE-1275,001,2026-04-10,2026-04-10,2010 Accounts Payable,1423.09,0,Check run 8750,tnguyen,controller,17:34,AP,Approved
+JE-1275,002,2026-04-10,2026-04-10,1010 Cash - Operating,0,1423.09,Check run 8750,tnguyen,finance.director,17:34,AP,Approved
+JE-1404,001,2026-04-10,2026-04-10,5810 Capital Outlay,117330.61,0,Street improvement contractor pay app 6,tnguyen,finance.director,08:44,AP,Approved
+JE-1404,002,2026-04-10,2026-04-10,2010 Accounts Payable,0,117330.61,Street improvement contractor pay app 6,tnguyen,finance.director,08:44,AP,Approved
+JE-1114,001,2026-04-13,2026-04-13,5210 Supplies,235.98,0,Vendor invoice 99199 - Supplies,mjohnson,controller,12:52,AP,Approved
+JE-1114,002,2026-04-13,2026-04-13,2010 Accounts Payable,0,235.98,Vendor invoice 99199 - Supplies,mjohnson,finance.director,12:52,AP,Approved
+JE-1265,001,2026-04-14,2026-04-14,2010 Accounts Payable,83.86,0,Check run 6510,tnguyen,finance.director,08:51,AP,Approved
+JE-1265,002,2026-04-14,2026-04-14,1010 Cash - Operating,0,83.86,Check run 6510,tnguyen,finance.director,08:51,AP,Approved
+JE-1086,001,2026-04-15,2026-04-15,5310 Contractual Services,11465.16,0,Vendor invoice 47136 - Contractual Services,mjohnson,finance.director,13:37,AP,Approved
+JE-1086,002,2026-04-15,2026-04-15,2010 Accounts Payable,0,11465.16,Vendor invoice 47136 - Contractual Services,mjohnson,finance.director,13:37,AP,Approved
+JE-1193,001,2026-04-15,2026-04-15,2010 Accounts Payable,710.04,0,Check run 9085,agarcia,finance.director,12:14,AP,Approved
+JE-1193,002,2026-04-15,2026-04-15,1010 Cash - Operating,0,710.04,Check run 9085,agarcia,finance.director,12:14,AP,Approved
+JE-1276,001,2026-04-15,2026-04-15,2010 Accounts Payable,984.73,0,Check run 8363,tnguyen,controller,13:00,AP,Approved
+JE-1276,002,2026-04-15,2026-04-15,1010 Cash - Operating,0,984.73,Check run 8363,tnguyen,controller,13:00,AP,Approved
+JE-1292,001,2026-04-16,2026-04-16,1010 Cash - Operating,58929.20,0,Property tax collections batch 10,tnguyen,controller,17:33,Cash Receipts,Approved
+JE-1292,002,2026-04-16,2026-04-16,1210 Taxes Receivable,0,58929.20,Property tax collections batch 10,tnguyen,controller,17:33,Cash Receipts,Approved
+JE-1365,001,2026-04-16,2026-04-16,1010 Cash - Operating,7757.25,0,Permit and service fees deposit 11,tnguyen,finance.director,15:14,Cash Receipts,Approved
+JE-1365,002,2026-04-16,2026-04-16,4410 Charges for Services,0,7757.25,Permit and service fees deposit 11,tnguyen,finance.director,15:14,Cash Receipts,Approved
+JE-1337,001,2026-04-20,2026-04-20,1010 Cash - Operating,214111.57,0,Property tax collections batch 55,agarcia,controller,17:27,Cash Receipts,Approved
+JE-1337,002,2026-04-20,2026-04-20,1210 Taxes Receivable,0,214111.57,Property tax collections batch 55,agarcia,controller,17:27,Cash Receipts,Approved
+JE-1142,001,2026-04-21,2026-04-21,5310 Contractual Services,597.29,0,Vendor invoice 62868 - Contractual Services,agarcia,finance.director,16:35,AP,Approved
+JE-1142,002,2026-04-21,2026-04-21,2010 Accounts Payable,0,597.29,Vendor invoice 62868 - Contractual Services,agarcia,finance.director,16:35,AP,Approved
+JE-1411,001,2026-04-22,2026-04-22,5950 Legal Settlements,95000.00,0,Settlement,temp.user,finance.director,16:26,Manual,Pending
+JE-1411,002,2026-04-22,2026-04-22,1010 Cash - Operating,0,95000.00,Settlement,temp.user,controller,16:26,Manual,Pending
+JE-1323,001,2026-04-23,2026-04-23,1010 Cash - Operating,142699.48,0,Property tax collections batch 41,tnguyen,controller,13:35,Cash Receipts,Approved
+JE-1323,002,2026-04-23,2026-04-23,1210 Taxes Receivable,0,142699.48,Property tax collections batch 41,tnguyen,controller,13:35,Cash Receipts,Approved
+JE-1043,001,2026-04-24,2026-04-24,5010 Salaries and Wages,200150.77,0,Payroll period 22,agarcia,finance.director,10:17,Payroll,Approved
+JE-1043,002,2026-04-24,2026-04-24,1010 Cash - Operating,0,200150.77,Payroll period 22,agarcia,finance.director,10:17,Payroll,Approved
+JE-1044,001,2026-04-24,2026-04-24,5110 Employee Benefits,62046.74,0,Benefits accrual period 22,tnguyen,controller,16:07,Payroll,Approved
+JE-1044,002,2026-04-24,2026-04-24,2110 Accrued Payroll,0,62046.74,Benefits accrual period 22,tnguyen,finance.director,16:07,Payroll,Approved
+JE-1075,001,2026-04-24,2026-04-24,5310 Contractual Services,98.28,0,Vendor invoice 26650 - Contractual Services,agarcia,controller,09:02,AP,Approved
+JE-1075,002,2026-04-24,2026-04-24,2010 Accounts Payable,0,98.28,Vendor invoice 26650 - Contractual Services,agarcia,finance.director,09:02,AP,Approved
+JE-1095,001,2026-04-24,2026-04-24,5310 Contractual Services,332.41,0,Vendor invoice 47558 - Contractual Services,tnguyen,controller,15:56,AP,Approved
+JE-1095,002,2026-04-24,2026-04-24,2010 Accounts Payable,0,332.41,Vendor invoice 47558 - Contractual Services,tnguyen,finance.director,15:56,AP,Approved
+JE-1213,001,2026-04-24,2026-04-24,2010 Accounts Payable,282.71,0,Check run 7803,tnguyen,finance.director,16:27,AP,Approved
+JE-1213,002,2026-04-24,2026-04-24,1010 Cash - Operating,0,282.71,Check run 7803,tnguyen,controller,16:27,AP,Approved
+JE-1218,001,2026-04-24,2026-04-24,2010 Accounts Payable,436.17,0,Check run 7849,agarcia,finance.director,12:55,AP,Approved
+JE-1218,002,2026-04-24,2026-04-24,1010 Cash - Operating,0,436.17,Check run 7849,agarcia,controller,12:55,AP,Approved
+JE-1332,001,2026-04-28,2026-04-28,1010 Cash - Operating,70481.52,0,Property tax collections batch 50,agarcia,controller,17:46,Cash Receipts,Approved
+JE-1332,002,2026-04-28,2026-04-28,1210 Taxes Receivable,0,70481.52,Property tax collections batch 50,agarcia,finance.director,17:46,Cash Receipts,Approved
+JE-1317,001,2026-04-29,2026-04-29,1010 Cash - Operating,31930.85,0,Property tax collections batch 35,tnguyen,controller,16:54,Cash Receipts,Approved
+JE-1317,002,2026-04-29,2026-04-29,1210 Taxes Receivable,0,31930.85,Property tax collections batch 35,tnguyen,finance.director,16:54,Cash Receipts,Approved
+JE-1268,001,2026-04-30,2026-04-30,2010 Accounts Payable,56.29,0,Check run 9787,agarcia,controller,12:24,AP,Approved
+JE-1268,002,2026-04-30,2026-04-30,1010 Cash - Operating,0,56.29,Check run 9787,agarcia,finance.director,12:24,AP,Approved
+JE-1059,001,2026-05-01,2026-05-01,5410 Utilities,11624.87,0,Vendor invoice 85651 - Utilities,agarcia,controller,15:07,AP,Approved
+JE-1059,002,2026-05-01,2026-05-01,2010 Accounts Payable,0,11624.87,Vendor invoice 85651 - Utilities,agarcia,finance.director,15:07,AP,Approved
+JE-1163,001,2026-05-01,2026-05-01,5310 Contractual Services,60.62,0,Vendor invoice 93834 - Contractual Services,mjohnson,finance.director,09:36,AP,Approved
+JE-1163,002,2026-05-01,2026-05-01,2010 Accounts Payable,0,60.62,Vendor invoice 93834 - Contractual Services,mjohnson,finance.director,09:36,AP,Approved
+JE-1281,001,2026-05-01,2026-05-01,2010 Accounts Payable,377.42,0,Check run 6715,mjohnson,controller,11:51,AP,Approved
+JE-1281,002,2026-05-01,2026-05-01,1010 Cash - Operating,0,377.42,Check run 6715,mjohnson,controller,11:51,AP,Approved
+JE-1336,001,2026-05-01,2026-05-01,1010 Cash - Operating,62276.76,0,Property tax collections batch 54,mjohnson,finance.director,14:10,Cash Receipts,Approved
+JE-1336,002,2026-05-01,2026-05-01,1210 Taxes Receivable,0,62276.76,Property tax collections batch 54,mjohnson,controller,14:10,Cash Receipts,Approved
+JE-1353,001,2026-05-01,2026-05-01,1210 Taxes Receivable,387742.94,0,Property tax levy recognition month 11,mjohnson,finance.director,08:20,GL,Approved
+JE-1353,002,2026-05-01,2026-05-01,4010 Property Tax Revenue,0,387742.94,Property tax levy recognition month 11,mjohnson,finance.director,08:20,GL,Approved
+JE-1388,001,2026-05-04,2026-05-04,1010 Cash - Operating,1174.41,0,Permit and service fees deposit 34,tnguyen,controller,09:56,Cash Receipts,Approved
+JE-1388,002,2026-05-04,2026-05-04,4410 Charges for Services,0,1174.41,Permit and service fees deposit 34,tnguyen,controller,09:56,Cash Receipts,Approved
+JE-1413,001,2026-05-05,2026-05-05,5210 Supplies,4120.00,0,Janitorial supplies,mjohnson,finance.director,16:20,AP,Approved
+JE-1413,002,2026-05-05,2026-05-05,2010 Accounts Payable,0,4100.00,Janitorial supplies,mjohnson,controller,16:20,AP,Approved
+JE-1045,001,2026-05-08,2026-05-08,5010 Salaries and Wages,186859.06,0,Payroll period 23,agarcia,controller,16:51,Payroll,Approved
+JE-1045,002,2026-05-08,2026-05-08,1010 Cash - Operating,0,186859.06,Payroll period 23,agarcia,finance.director,16:51,Payroll,Approved
+JE-1046,001,2026-05-08,2026-05-08,5110 Employee Benefits,57926.31,0,Benefits accrual period 23,tnguyen,finance.director,14:07,Payroll,Approved
+JE-1046,002,2026-05-08,2026-05-08,2110 Accrued Payroll,0,57926.31,Benefits accrual period 23,tnguyen,finance.director,14:07,Payroll,Approved
+JE-1101,001,2026-05-11,2026-05-11,5210 Supplies,66.38,0,Vendor invoice 27455 - Supplies,mjohnson,finance.director,12:14,AP,Approved
+JE-1101,002,2026-05-11,2026-05-11,2010 Accounts Payable,0,66.38,Vendor invoice 27455 - Supplies,mjohnson,controller,12:14,AP,Approved
+JE-1259,001,2026-05-12,2026-05-12,2010 Accounts Payable,359.09,0,Check run 6538,mjohnson,finance.director,12:24,AP,Approved
+JE-1259,002,2026-05-12,2026-05-12,1010 Cash - Operating,0,359.09,Check run 6538,mjohnson,finance.director,12:24,AP,Approved
+JE-1253,001,2026-05-13,2026-05-13,2010 Accounts Payable,2002.55,0,Check run 5510,mjohnson,finance.director,11:58,AP,Approved
+JE-1253,002,2026-05-13,2026-05-13,1010 Cash - Operating,0,2002.55,Check run 5510,mjohnson,controller,11:58,AP,Approved
+JE-1090,001,2026-05-18,2026-05-18,5310 Contractual Services,2635.50,0,Vendor invoice 44104 - Contractual Services,agarcia,finance.director,10:00,AP,Approved
+JE-1090,002,2026-05-18,2026-05-18,2010 Accounts Payable,0,2635.50,Vendor invoice 44104 - Contractual Services,agarcia,finance.director,10:00,AP,Approved
+JE-1263,001,2026-05-18,2026-05-18,2010 Accounts Payable,214.35,0,Check run 5638,tnguyen,finance.director,13:23,AP,Approved
+JE-1263,002,2026-05-18,2026-05-18,1010 Cash - Operating,0,214.35,Check run 5638,tnguyen,finance.director,13:23,AP,Approved
+JE-1069,001,2026-05-19,2026-05-19,5410 Utilities,1538.69,0,Vendor invoice 29240 - Utilities,tnguyen,controller,13:06,AP,Approved
+JE-1069,002,2026-05-19,2026-05-19,2010 Accounts Payable,0,1538.69,Vendor invoice 29240 - Utilities,tnguyen,controller,13:06,AP,Approved
+JE-1356,001,2026-05-20,2026-05-20,1010 Cash - Operating,922.57,0,Permit and service fees deposit 2,mjohnson,controller,17:39,Cash Receipts,Approved
+JE-1356,002,2026-05-20,2026-05-20,4410 Charges for Services,0,922.57,Permit and service fees deposit 2,mjohnson,finance.director,17:39,Cash Receipts,Approved
+JE-1300,001,2026-05-21,2026-05-21,1010 Cash - Operating,37446.40,0,Property tax collections batch 18,agarcia,finance.director,12:21,Cash Receipts,Approved
+JE-1300,002,2026-05-21,2026-05-21,1210 Taxes Receivable,0,37446.40,Property tax collections batch 18,agarcia,controller,12:21,Cash Receipts,Approved
+JE-1383,001,2026-05-21,2026-05-21,1010 Cash - Operating,5015.05,0,Permit and service fees deposit 29,tnguyen,controller,11:22,Cash Receipts,Approved
+JE-1383,002,2026-05-21,2026-05-21,4410 Charges for Services,0,5015.05,Permit and service fees deposit 29,tnguyen,finance.director,11:22,Cash Receipts,Approved
+JE-1047,001,2026-05-22,2026-05-22,5010 Salaries and Wages,194711.36,0,Payroll period 24,mjohnson,finance.director,12:43,Payroll,Approved
+JE-1047,002,2026-05-22,2026-05-22,1010 Cash - Operating,0,194711.36,Payroll period 24,mjohnson,controller,12:43,Payroll,Approved
+JE-1048,001,2026-05-22,2026-05-22,5110 Employee Benefits,60360.52,0,Benefits accrual period 24,tnguyen,finance.director,17:06,Payroll,Approved
+JE-1048,002,2026-05-22,2026-05-22,2110 Accrued Payroll,0,60360.52,Benefits accrual period 24,tnguyen,finance.director,17:06,Payroll,Approved
+JE-1254,001,2026-05-22,2026-05-22,2010 Accounts Payable,232.22,0,Check run 9706,tnguyen,finance.director,13:33,AP,Approved
+JE-1254,002,2026-05-22,2026-05-22,1010 Cash - Operating,0,232.22,Check run 9706,tnguyen,controller,13:33,AP,Approved
+JE-1131,001,2026-05-25,2026-05-25,5410 Utilities,1853.85,0,Vendor invoice 61593 - Utilities,agarcia,controller,12:18,AP,Approved
+JE-1131,002,2026-05-25,2026-05-25,2010 Accounts Payable,0,1853.85,Vendor invoice 61593 - Utilities,agarcia,finance.director,12:18,AP,Approved
+JE-1169,001,2026-05-25,2026-05-25,5410 Utilities,5525.84,0,Vendor invoice 48107 - Utilities,agarcia,finance.director,17:44,AP,Approved
+JE-1169,002,2026-05-25,2026-05-25,2010 Accounts Payable,0,5525.84,Vendor invoice 48107 - Utilities,agarcia,controller,17:44,AP,Approved
+JE-1237,001,2026-05-26,2026-05-26,2010 Accounts Payable,2814.00,0,Check run 8853,agarcia,finance.director,14:17,AP,Approved
+JE-1237,002,2026-05-26,2026-05-26,1010 Cash - Operating,0,2814.00,Check run 8853,agarcia,finance.director,14:17,AP,Approved
+JE-1290,001,2026-05-26,2026-05-26,1010 Cash - Operating,40346.20,0,Property tax collections batch 8,mjohnson,controller,16:34,Cash Receipts,Approved
+JE-1290,002,2026-05-26,2026-05-26,1210 Taxes Receivable,0,40346.20,Property tax collections batch 8,mjohnson,finance.director,16:34,Cash Receipts,Approved
+JE-1339,001,2026-05-26,2026-05-26,1010 Cash - Operating,88642.34,0,Property tax collections batch 57,agarcia,controller,13:45,Cash Receipts,Approved
+JE-1339,002,2026-05-26,2026-05-26,1210 Taxes Receivable,0,88642.34,Property tax collections batch 57,agarcia,controller,13:45,Cash Receipts,Approved
+JE-1389,001,2026-05-26,2026-05-26,1010 Cash - Operating,3124.03,0,Permit and service fees deposit 35,mjohnson,controller,11:15,Cash Receipts,Approved
+JE-1389,002,2026-05-26,2026-05-26,4410 Charges for Services,0,3124.03,Permit and service fees deposit 35,mjohnson,finance.director,11:15,Cash Receipts,Approved
+JE-1108,001,2026-06-01,2026-06-01,5210 Supplies,306.25,0,Vendor invoice 15701 - Supplies,agarcia,controller,09:41,AP,Approved
+JE-1108,002,2026-06-01,2026-06-01,2010 Accounts Payable,0,306.25,Vendor invoice 15701 - Supplies,agarcia,finance.director,09:41,AP,Approved
+JE-1150,001,2026-06-01,2026-06-01,5210 Supplies,10066.66,0,Vendor invoice 71585 - Supplies,tnguyen,controller,15:55,AP,Approved
+JE-1150,002,2026-06-01,2026-06-01,2010 Accounts Payable,0,10066.66,Vendor invoice 71585 - Supplies,tnguyen,finance.director,15:55,AP,Approved
+JE-1208,001,2026-06-01,2026-06-01,2010 Accounts Payable,5678.97,0,Check run 7335,tnguyen,controller,16:48,AP,Approved
+JE-1208,002,2026-06-01,2026-06-01,1010 Cash - Operating,0,5678.97,Check run 7335,tnguyen,finance.director,16:48,AP,Approved
+JE-1239,001,2026-06-01,2026-06-01,2010 Accounts Payable,375.64,0,Check run 7773,agarcia,controller,13:05,AP,Approved
+JE-1239,002,2026-06-01,2026-06-01,1010 Cash - Operating,0,375.64,Check run 7773,agarcia,finance.director,13:05,AP,Approved
+JE-1354,001,2026-06-01,2026-06-01,1210 Taxes Receivable,460052.14,0,Property tax levy recognition month 12,tnguyen,finance.director,15:23,GL,Approved
+JE-1354,002,2026-06-01,2026-06-01,4010 Property Tax Revenue,0,460052.14,Property tax levy recognition month 12,tnguyen,finance.director,15:23,GL,Approved
+JE-1386,001,2026-06-01,2026-06-01,1010 Cash - Operating,3152.44,0,Permit and service fees deposit 32,agarcia,controller,09:32,Cash Receipts,Approved
+JE-1386,002,2026-06-01,2026-06-01,4410 Charges for Services,0,3152.44,Permit and service fees deposit 32,agarcia,controller,09:32,Cash Receipts,Approved
+JE-1110,001,2026-06-03,2026-06-03,5410 Utilities,10735.50,0,Vendor invoice 61722 - Utilities,mjohnson,controller,11:39,AP,Approved
+JE-1110,002,2026-06-03,2026-06-03,2010 Accounts Payable,0,10735.50,Vendor invoice 61722 - Utilities,mjohnson,controller,11:39,AP,Approved
+JE-1396,001,2026-06-03,2026-06-03,1010 Cash - Operating,219206.66,0,State grant reimbursement Q2,agarcia,finance.director,11:19,Cash Receipts,Approved
+JE-1396,002,2026-06-03,2026-06-03,4310 Intergovernmental Grants,0,219206.66,State grant reimbursement Q2,agarcia,controller,11:19,Cash Receipts,Approved
+JE-1204,001,2026-06-04,2026-06-04,2010 Accounts Payable,100.88,0,Check run 6897,tnguyen,controller,11:52,AP,Approved
+JE-1204,002,2026-06-04,2026-06-04,1010 Cash - Operating,0,100.88,Check run 6897,tnguyen,finance.director,11:52,AP,Approved
+JE-1049,001,2026-06-05,2026-06-05,5010 Salaries and Wages,193026.82,0,Payroll period 25,mjohnson,finance.director,08:26,Payroll,Approved
+JE-1049,002,2026-06-05,2026-06-05,1010 Cash - Operating,0,193026.82,Payroll period 25,mjohnson,finance.director,08:26,Payroll,Approved
+JE-1050,001,2026-06-05,2026-06-05,5110 Employee Benefits,59838.31,0,Benefits accrual period 25,tnguyen,finance.director,08:14,Payroll,Approved
+JE-1050,002,2026-06-05,2026-06-05,2110 Accrued Payroll,0,59838.31,Benefits accrual period 25,tnguyen,controller,08:14,Payroll,Approved
+JE-1235,001,2026-06-05,2026-06-05,2010 Accounts Payable,2062.35,0,Check run 9412,agarcia,controller,08:22,AP,Approved
+JE-1235,002,2026-06-05,2026-06-05,1010 Cash - Operating,0,2062.35,Check run 9412,agarcia,controller,08:22,AP,Approved
+JE-1221,001,2026-06-08,2026-06-08,2010 Accounts Payable,50.08,0,Check run 8160,tnguyen,controller,10:28,AP,Approved
+JE-1221,002,2026-06-08,2026-06-08,1010 Cash - Operating,0,50.08,Check run 8160,tnguyen,controller,10:28,AP,Approved
+JE-1299,001,2026-06-10,2026-06-10,1010 Cash - Operating,21280.28,0,Property tax collections batch 17,mjohnson,controller,08:29,Cash Receipts,Approved
+JE-1299,002,2026-06-10,2026-06-10,1210 Taxes Receivable,0,21280.28,Property tax collections batch 17,mjohnson,finance.director,08:29,Cash Receipts,Approved
+JE-1207,001,2026-06-11,2026-06-11,2010 Accounts Payable,59.35,0,Check run 5205,agarcia,finance.director,09:30,AP,Approved
+JE-1207,002,2026-06-11,2026-06-11,1010 Cash - Operating,0,59.35,Check run 5205,agarcia,finance.director,09:30,AP,Approved
+JE-1083,001,2026-06-15,2026-06-15,5310 Contractual Services,1817.11,0,Vendor invoice 67697 - Contractual Services,agarcia,controller,13:46,AP,Approved
+JE-1083,002,2026-06-15,2026-06-15,2010 Accounts Payable,0,1817.11,Vendor invoice 67697 - Contractual Services,agarcia,finance.director,13:46,AP,Approved
+JE-1302,001,2026-06-15,2026-06-15,1010 Cash - Operating,137364.18,0,Property tax collections batch 20,agarcia,controller,08:49,Cash Receipts,Approved
+JE-1302,002,2026-06-15,2026-06-15,1210 Taxes Receivable,0,137364.18,Property tax collections batch 20,agarcia,finance.director,08:49,Cash Receipts,Approved
+JE-1272,001,2026-06-16,2026-06-16,2010 Accounts Payable,676.59,0,Check run 8467,tnguyen,controller,15:33,AP,Approved
+JE-1272,002,2026-06-16,2026-06-16,1010 Cash - Operating,0,676.59,Check run 8467,tnguyen,finance.director,15:33,AP,Approved
+JE-1364,001,2026-06-16,2026-06-16,1010 Cash - Operating,3689.35,0,Permit and service fees deposit 10,agarcia,controller,11:50,Cash Receipts,Approved
+JE-1364,002,2026-06-16,2026-06-16,4410 Charges for Services,0,3689.35,Permit and service fees deposit 10,agarcia,controller,11:50,Cash Receipts,Approved
+JE-1113,001,2026-06-17,2026-06-17,5410 Utilities,205.94,0,Vendor invoice 78753 - Utilities,tnguyen,finance.director,14:54,AP,Approved
+JE-1113,002,2026-06-17,2026-06-17,2010 Accounts Payable,0,205.94,Vendor invoice 78753 - Utilities,tnguyen,controller,14:54,AP,Approved
+JE-1126,001,2026-06-18,2026-06-18,5210 Supplies,126.59,0,Vendor invoice 93707 - Supplies,agarcia,controller,09:51,AP,Approved
+JE-1126,002,2026-06-18,2026-06-18,2010 Accounts Payable,0,126.59,Vendor invoice 93707 - Supplies,agarcia,finance.director,09:51,AP,Approved
+JE-1328,001,2026-06-18,2026-06-18,1010 Cash - Operating,27545.61,0,Property tax collections batch 46,agarcia,controller,15:45,Cash Receipts,Approved
+JE-1328,002,2026-06-18,2026-06-18,1210 Taxes Receivable,0,27545.61,Property tax collections batch 46,agarcia,controller,15:45,Cash Receipts,Approved
+JE-1051,001,2026-06-19,2026-06-19,5010 Salaries and Wages,204771.05,0,Payroll period 26,mjohnson,controller,09:41,Payroll,Approved
+JE-1051,002,2026-06-19,2026-06-19,1010 Cash - Operating,0,204771.05,Payroll period 26,mjohnson,controller,09:41,Payroll,Approved
+JE-1052,001,2026-06-19,2026-06-19,5110 Employee Benefits,63479.03,0,Benefits accrual period 26,agarcia,controller,10:45,Payroll,Approved
+JE-1052,002,2026-06-19,2026-06-19,2110 Accrued Payroll,0,63479.03,Benefits accrual period 26,agarcia,finance.director,10:45,Payroll,Approved
+JE-1231,001,2026-06-23,2026-06-23,2010 Accounts Payable,12969.93,0,Check run 7878,agarcia,controller,11:07,AP,Approved
+JE-1231,002,2026-06-23,2026-06-23,1010 Cash - Operating,0,12969.93,Check run 7878,agarcia,finance.director,11:07,AP,Approved
+JE-1257,001,2026-06-23,2026-06-23,2010 Accounts Payable,52.31,0,Check run 5574,mjohnson,finance.director,08:56,AP,Approved
+JE-1257,002,2026-06-23,2026-06-23,1010 Cash - Operating,0,52.31,Check run 5574,mjohnson,controller,08:56,AP,Approved
+JE-1397,001,2026-06-23,2026-06-23,1010 Cash - Operating,129631.92,0,State grant reimbursement Q3,mjohnson,finance.director,17:29,Cash Receipts,Approved
+JE-1397,002,2026-06-23,2026-06-23,4310 Intergovernmental Grants,0,129631.92,State grant reimbursement Q3,mjohnson,controller,17:29,Cash Receipts,Approved
+JE-1177,001,2026-06-25,2026-06-25,2010 Accounts Payable,85.09,0,Check run 5525,agarcia,finance.director,08:45,AP,Approved
+JE-1177,002,2026-06-25,2026-06-25,1010 Cash - Operating,0,85.09,Check run 5525,agarcia,controller,08:45,AP,Approved
+JE-1058,001,2026-06-26,2026-06-26,5210 Supplies,65.01,0,Vendor invoice 22915 - Supplies,tnguyen,finance.director,10:58,AP,Approved
+JE-1058,002,2026-06-26,2026-06-26,2010 Accounts Payable,0,65.01,Vendor invoice 22915 - Supplies,tnguyen,finance.director,10:58,AP,Approved
+JE-1318,001,2026-06-26,2026-06-26,1010 Cash - Operating,62777.66,0,Property tax collections batch 36,agarcia,finance.director,15:49,Cash Receipts,Approved
+JE-1318,002,2026-06-26,2026-06-26,1210 Taxes Receivable,0,62777.66,Property tax collections batch 36,agarcia,controller,15:49,Cash Receipts,Approved
+JE-1405,001,2026-06-27,2026-06-27,4910 Miscellaneous Revenue,250000.00,0,reclass per CFO,finance.director,finance.director,21:42,Manual,Approved
+JE-1405,002,2026-06-27,2026-06-27,4310 Intergovernmental Grants,0,250000.00,reclass per CFO,finance.director,finance.director,21:42,Manual,Approved
+JE-1102,001,2026-06-29,2026-06-29,5310 Contractual Services,102.82,0,Vendor invoice 76455 - Contractual Services,agarcia,controller,15:08,AP,Approved
+JE-1102,002,2026-06-29,2026-06-29,2010 Accounts Payable,0,102.82,Vendor invoice 76455 - Contractual Services,agarcia,controller,15:08,AP,Approved
+JE-1173,001,2026-06-29,2026-06-29,2010 Accounts Payable,1947.79,0,Check run 8961,agarcia,controller,12:20,AP,Approved
+JE-1173,002,2026-06-29,2026-06-29,1010 Cash - Operating,0,1947.79,Check run 8961,agarcia,finance.director,12:20,AP,Approved
+JE-1066,001,2026-06-30,2026-06-30,5410 Utilities,327.15,0,Vendor invoice 74199 - Utilities,tnguyen,finance.director,11:07,AP,Approved
+JE-1066,002,2026-06-30,2026-06-30,2010 Accounts Payable,0,327.15,Vendor invoice 74199 - Utilities,tnguyen,finance.director,11:07,AP,Approved
+JE-1224,001,2026-06-30,2026-06-30,2010 Accounts Payable,631.55,0,Check run 7373,agarcia,controller,13:46,AP,Approved
+JE-1224,002,2026-06-30,2026-06-30,1010 Cash - Operating,0,631.55,Check run 7373,agarcia,finance.director,13:46,AP,Approved
+JE-1361,001,2026-06-30,2026-06-30,1010 Cash - Operating,4863.60,0,Permit and service fees deposit 7,mjohnson,controller,09:20,Cash Receipts,Approved
+JE-1361,002,2026-06-30,2026-06-30,4410 Charges for Services,0,4863.60,Permit and service fees deposit 7,mjohnson,finance.director,09:20,Cash Receipts,Approved
+JE-1406,001,2026-06-30,2026-06-30,1210 Taxes Receivable,180000.00,0,adj,tnguyen,controller,18:55,Manual,Approved
+JE-1406,002,2026-06-30,2026-06-30,4310 Intergovernmental Grants,0,180000.00,adj,tnguyen,finance.director,18:55,Manual,Approved
+JE-1407,001,2026-07-14,2026-06-30,5310 Contractual Services,42500.00,0,Accrue June engineering services,tnguyen,controller,09:34,Manual,Approved
+JE-1407,002,2026-07-14,2026-06-30,2010 Accounts Payable,0,42500.00,Accrue June engineering services,tnguyen,finance.director,09:34,Manual,Approved

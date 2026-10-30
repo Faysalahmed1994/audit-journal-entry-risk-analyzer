@@ -1,86 +1,91 @@
-# AuditJE — Offline Journal Entry Risk & Workpaper Analyzer
+# AuditJE — Journal Entry Testing Web App
 
-**Status: public preview v0.1 — not validated for audit production.**
+**Status: public preview v0.2 — not validated for audit production use.**
 
-**Try the interactive public demonstration (synthetic data only):** [AuditJE GitHub Pages](https://faysalahmed1994.github.io/audit-journal-entry-risk-analyzer/) *(available after the owner enables Pages; [one-time setup](docs/GO_LIVE.md))*.
+**Open the app:** https://faysalahmed1994.github.io/audit-journal-entry-risk-analyzer/ *(live once GitHub Pages is enabled — [one-time setup](docs/GO_LIVE.md))*
 
-**Public review:** [Join the open review thread (#1)](https://github.com/Faysalahmed1994/audit-journal-entry-risk-analyzer/issues/1) · [Report a bug or request a feature](https://github.com/Faysalahmed1994/audit-journal-entry-risk-analyzer/issues/new/choose) · [Contribute or fork](CONTRIBUTING.md).
+AuditJE takes an auditor through journal entry testing from start to finish, in the order the work is actually done:
 
-**This hosted demo is not the same as the local offline application:** the website only operates on built-in synthetic data and does not accept files, attach vouchers, or generate XLSX workpapers. The full Python prototype below is downloadable for authorized local evaluation.
-
-> **PUBLIC PREVIEW — Feedback welcome.** AuditJE v0.1 is open for review while development continues. [Comment on the public review invitation (Issue #1)](https://github.com/Faysalahmed1994/audit-journal-entry-risk-analyzer/issues/1), [open a new feedback issue](https://github.com/Faysalahmed1994/audit-journal-entry-risk-analyzer/issues/new/choose), or read the [reviewer guide](docs/PUBLIC_REVIEW.md). Please test with **synthetic data only**. GitHub hosts the source code; there is **no hosted interactive application** yet. The prototype is rules-based, not AI-powered or production-validated.
-
-AuditJE is a laptop-hosted, explainable, rules-based tool for financial audit teams to review journal-entry populations, triage unusual postings, select a reproducible risk-based sample, and create an Excel audit workpaper with manually attached voucher screenshots.
-
-> **Confidentiality:** files are processed at `127.0.0.1` on your own laptop. There is no cloud upload, subscription or paid API. Do **not** commit client data or workpapers. Follow employer policies and audit standards before use.
-
-## Included functionality
-
-| Capability | Available now? |
+| Step | What happens |
 |---|---|
-| Import GL journal lines via CSV or XLSX | ✅ |
-| Test missing identifiers/dates/accounts, duplicates and unbalanced JEs | ✅ |
-| Compare population counts and monetary totals to user-supplied independent controls | ✅ |
-| Score JE-level weekend, after-hours, high-value, manual and other indicators | ✅ |
-| Risk-first + reproducible random JE sampling (seed recorded) | ✅ |
-| Export Excel workpaper with risk register, selected samples, data quality and methods | ✅ |
-| Manually attach PNG/JPG voucher screenshots to exported workbook | ✅ |
-| Auto-OCR PDFs, auto-vouch against client vouchers, automatic approval decisions | ❌ planned |
-| Windows one-click installed `.exe` | ❌ planned |
+| **JE.0 Engagement** | Choose an engagement folder on your computer; enter client, period, team and an optional key-item threshold. |
+| **JE.1 Population** | Import the JE listing (CSV/XLSX). Columns are auto-matched and editable. A copy is saved to `01_Population/` with its SHA-256 hash. |
+| **JE.2 Completeness** | Agree line/entry/debit/credit totals to independent reports, roll the trial balance forward account by account, check period coverage and find gaps in journal numbers. |
+| **JE.3 Risk analysis** | Score every entry against 19 fraud-risk characteristics drawn from AU-C 240 / AS 2401 (post-closing, self-approved, seldom-used accounts, infrequent preparers, duplicate entries, vague descriptions, weekend/after-hours, round amounts and more), plus a Benford first-digit test. Weights and thresholds are adjustable. |
+| **JE.4 Sample selection** | Key items above your threshold, then the highest-risk entries, then a seeded random selection. Every manual addition or removal requires a reason and is logged. |
+| **JE.5 Vouching** | Attach vouchers (PDF, images, Word, Excel, email) to each selected entry. Files are saved to `03_Vouchers/<JE>/` and referenced V-001, V-002…; record six test attributes, voucher amounts (auto-compared to the entry), conclusions and exceptions. |
+| **JE.6 Workpaper** | Record the conclusion and sign-offs, then generate an Excel workpaper in `02_Workpapers/` with cover, completeness, TB roll-forward, sample and vouching results, a voucher index **hyperlinked to each voucher file**, risk register, change log, data quality, full population and methodology. |
 
-## Run locally (Windows)
+Progress autosaves to `engagement.json` in the folder — reopen the folder later and continue where you left off.
 
-1. Install **Python 3.11 or later** (from python.org), checking **Add Python to PATH**.
-2. Download and unzip this project into a directory on your laptop.
-3. With an internet connection **once**, double-click `setup_windows.bat` to install `openpyxl` and `Pillow` into Python. (A virtual environment is preferable in managed IT setups.)
-4. Double-click `run_windows.bat` to start the tool. Your browser opens `http://127.0.0.1:8765/`.
-5. Import your authorized `.xlsx` or `.csv`, set sample size / risk %, optional independent control totals, and click **Analyze JEs**.
-6. Inspect the register and sample. Optionally attach your own PNG/JPG voucher screenshots, then click **Download audit workpaper**.
-7. Press **Ctrl+C** in the terminal to close. After step 3, **internet is not required**.
+```text
+<engagement folder>/
+  01_Population/   JE listing and TB exactly as imported
+  02_Workpapers/   generated Excel workpapers
+  03_Vouchers/     vouchers, one subfolder per journal entry
+  engagement.json  saved progress (settings, sample, vouching results)
+```
 
-Mac/Linux: `python3 -m pip install -r requirements.txt` (first time), then `python3 app.py`.
+## Confidentiality by design
 
-To trial without data, click **Use sample data** in the interface. That sample is fully synthetic.
+AuditJE is a static web page. **All parsing, scoring and workbook generation run inside your browser; client files are never uploaded.** The page's Content Security Policy blocks network connections to anywhere except the app's own files, and the automated test suite fails if the app makes any outside request. Fonts and the Excel library are bundled locally. After the first visit the app also works offline.
 
-## Source format
+Even so, follow your firm's policies before using it with client data, and keep engagement folders in your firm's approved, access-controlled locations.
 
-Required column headers: `journal_id`, `posting_date`, `account`, `debit`, `credit`. Common alternative names are supported. Optional columns: `line_id`, `description`, `preparer`, `entry_time`, `source`, `approval_status`. See [data dictionary](docs/DATA_DICTIONARY.md), [methodology](docs/METHODOLOGY.md), and [synthetic example](examples/synthetic_journal_entries.csv).
+## Browser support
+
+| Browser | Works? |
+|---|---|
+| Chrome or Edge (desktop) | ✅ Full experience, including saving to an engagement folder |
+| Firefox, Safari, mobile | ⚠️ Works in the tab only: files stay in memory and you download the workpaper at the end |
+
+## Try it
+
+Open the app and choose **Try the sample engagement**. It loads a fully synthetic municipal general ledger (411 entries) and trial balance with planted anomalies (a self-approved reclass "per CFO", a post-closing accrual, a duplicate invoice, a $500 TB difference, missing journal numbers, and so on).
 
 ## Important audit limitations
 
-- Import checks and totals do **not** by themselves prove population completeness; an auditor must independently reconcile the JE extract to source system, GL/TB, and assess filters and unposted entries.
-- A high risk score does **not** mean fraud or misstatement. Rules are intentionally transparent and heuristic; independent review/validation is necessary.
-- The reproducible selection is a mix of targeted and simple random selection, **not** a statistical sample suitable for projecting error rates.
-- This version does not automatically read or validate voucher screenshots and does not replace a qualified auditor's testing and review.
-- File limit: 20 MB; prototype parser may not be suitable for very large GLs. One entity / single reporting period per import.
+- Import checks do **not** by themselves prove population completeness; obtain the extract yourself, evaluate report parameters, and reconcile to the GL/TB.
+- A risk score is a transparent heuristic, **not** a fraud determination. Review false positives and consider risks the rules cannot see.
+- Risk-based and random selections are **not a statistical sample** and must not be used to project misstatement.
+- Voucher amounts and attributes are entered by the auditor; AuditJE does not read documents automatically.
+- One entity, one currency and one period per import. Tested to roughly 1 million lines in the browser; very large ledgers depend on your computer's memory.
 
-## Project layout
+## Develop and test
 
-```text
-app.py                         Local-only server and API
-index.html                     Browser UI (offline)
-je_core.py                     Import / screening / sample selection
-report.py                      XLSX workpaper generator
-examples/                      Synthetic demonstration GL
-run_windows.bat                Windows launcher
-setup_windows.bat              One-time dependencies
-requirements.txt               Third-party packages
-docs/DATA_DICTIONARY.md        Mapping assumptions
-docs/METHODOLOGY.md            Rule weights and audit limitations
-docs/ROADMAP.md                Product development phases
-docs/NIW_EVIDENCE_PLAN.md      Ethical impact measurement plan
-tests/                         Unit tests
-.github/workflows/tests.yml    Synthetic-data CI
-```
-
-## Test
+No build step: the app is plain HTML, CSS and JavaScript modules in [`docs/`](docs/).
 
 ```bash
-python -m unittest discover -s tests -v
+npm install            # test tooling only (Playwright, ExcelJS)
+npm test               # engine unit tests
+npx playwright install chromium && npm run test:e2e   # full browser workflow test
+npm run serve          # http://localhost:8000
 ```
+
+| Path | Purpose |
+|---|---|
+| `docs/index.html`, `docs/assets/app.css` | App shell and styling |
+| `docs/assets/js/engine.js` | Parsing, completeness, risk rules, sampling (pure functions) |
+| `docs/assets/js/io.js` | CSV/XLSX reading, SHA-256 |
+| `docs/assets/js/store.js` | Engagement folder storage (File System Access API) |
+| `docs/assets/js/workpaper.js` | Excel workpaper generation |
+| `docs/assets/js/app.js` | User interface |
+| `docs/assets/sample/` | Synthetic demo data (`npm run sample` regenerates it) |
+| `tests/` | Unit and end-to-end tests |
+| `app.py`, `je_core.py`, `report.py` | Original v0.1 offline Python edition (still supported; see below) |
+
+Documentation: [methodology](docs/METHODOLOGY.md) · [data dictionary](docs/DATA_DICTIONARY.md) · [roadmap](docs/ROADMAP.md) · [reviewer guide](docs/PUBLIC_REVIEW.md).
+
+### Offline Python edition (v0.1)
+
+The original local Python tool remains available: install Python 3.11+, run `setup_windows.bat` once, then `run_windows.bat` (or `python3 app.py`). It serves only on `127.0.0.1` and now rejects requests from other hosts or origins. Python tests: `python -m unittest discover -s tests -v`.
+
+## Public review
+
+[Join the open review thread (#1)](https://github.com/Faysalahmed1994/audit-journal-entry-risk-analyzer/issues/1) · [Report a bug or request a feature](https://github.com/Faysalahmed1994/audit-journal-entry-risk-analyzer/issues/new/choose) · [Contribute or fork](CONTRIBUTING.md). Please use **synthetic data only** in issues.
 
 ## Intended relevance
 
 The broader aim is to provide reusable, explainable audit analytics that may reduce repetitive audit preparation for small and mid-sized firms, government entities and nonprofit audits. Meaningful claims about time saved, detection quality, independent users and impact require real validation. This project may support the author's wider public-interest audit modernization endeavor; it is **not** evidence of approved NIW status or a legal outcome.
 
-**License:** [MIT License](LICENSE). Forks, pull requests, and modifications are welcome subject to license terms. Public comments and forks do not imply professional validation, endorsement, or adoption.
+**License:** [MIT](LICENSE). Bundled: [ExcelJS](https://github.com/exceljs/exceljs) (MIT), [Public Sans](https://github.com/uswds/public-sans) (OFL 1.1). Forks and pull requests are welcome; public comments and forks do not imply professional validation, endorsement or adoption.

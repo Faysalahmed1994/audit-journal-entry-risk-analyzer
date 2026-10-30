@@ -1,4 +1,4 @@
-# AuditJE v0.1 — Public Preview and Reviewer Guide
+# AuditJE v0.2 — Public Preview and Reviewer Guide
 
 **Project status:** Early-stage, rules-based journal-entry risk analysis and workpaper prototype. **Not production-validated, not a fraud detector, not an AI model, and not a substitute for professional judgment.**
 
@@ -6,13 +6,14 @@ Thank you for reviewing AuditJE. The goal of this preview is to learn what audit
 
 ## What you can try
 
-1. Download the repository (Code > Download ZIP) and follow the setup steps in [README](../README.md).
-2. Start the tool locally and select **Use sample data**. The sample is fully synthetic.
-3. Examine the risk register, data-quality checks, and selection logic. Adjust the sample size and risk-based portion.
-4. Download the Excel workpaper. Evaluate whether an audit team could document procedures, results, and evidence clearly.
+1. Open the [AuditJE web app](https://faysalahmed1994.github.io/audit-journal-entry-risk-analyzer/) in Chrome or Edge. Nothing to install.
+2. Choose **Try the sample engagement**. The municipal ledger and trial balance are fully synthetic.
+3. Walk through completeness, risk analysis and sample selection. Adjust rule weights, thresholds and the sample size.
+4. Attach any non-confidential image or PDF as a voucher, record attributes, and generate the Excel workpaper. Evaluate whether an audit team could document procedures, results and evidence clearly.
+5. Optionally choose **Start a new engagement** with an empty test folder to see how files are organized.
 5. Report a bug or suggest an enhancement using the [GitHub Issues page](../issues) or the [feedback template](../.github/ISSUE_TEMPLATE/auditje_feedback.md).
 
-If you are unable to install Python, you can still review the [methodology](METHODOLOGY.md), [data dictionary](DATA_DICTIONARY.md), [roadmap](ROADMAP.md), and code.
+You can also review the [methodology](METHODOLOGY.md), [data dictionary](DATA_DICTIONARY.md), [roadmap](ROADMAP.md), and code.
 
 ## What feedback would be most useful?
 
@@ -22,7 +23,7 @@ If you are unable to install Python, you can still review the [methodology](METH
 - **Workpaper usability:** Which columns, sign-offs, review notes, and voucher-reference fields are missing?
 - **Government/nonprofit relevance:** What system exports or common entry patterns need support?
 - **Product reliability/security:** What data parsing, local storage, input validation, or edge cases need attention?
-- **Accessibility and onboarding:** What would help someone unfamiliar with Python test this tool?
+- **Accessibility and onboarding:** What would help a first-time user complete the workflow without instructions?
 
 ## How to submit feedback
 

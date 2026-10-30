@@ -12,7 +12,7 @@ Please **do not publish sensitive exploit details or affected client information
 
 ## Handling audit records
 
-- The public GitHub Pages demonstration includes **synthetic data only** and does not accept uploads.
+- The GitHub Pages web app processes files only inside the user's browser; its Content Security Policy blocks connections to other origins, and it ships with synthetic sample data only. Files are saved only to a folder the user selects.
 - The separately downloaded application is designed to listen on loopback (`127.0.0.1`), but use it only with appropriate authorization and local IT/security controls.
 - Do not commit, post, or attach any client records or workpapers to public GitHub.
 - All analysis outcomes require professional judgment, independent population validation, and appropriate audit review.
